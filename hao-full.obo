@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: hao/releases/2026-02-12/hao-full.owl
+data-version: hao/releases/2026-11-01/hao-full.owl
 idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: figure http://api.hymao.org/api/figure/ 
@@ -18,7 +18,7 @@ property_value: dcterms:contributor "Sergei Tarasov (STarasov) https://orcid.org
 property_value: dcterms:description "The Hymenoptera Anatomy Ontology (HAO) contains terms used to describe Hymenoptera anatomy phenotypes." xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Hymenoptera Anatomy Ontology" xsd:string
-property_value: owl:versionInfo "2026-02-12" xsd:string
+property_value: owl:versionInfo "2026-11-01" xsd:string
 
 [Term]
 id: AISM:0000000
@@ -124,7 +124,7 @@ is_a: AISM:0000002 {dc:contributor="imiko https://orcid.org/0000-0003-2938-9075"
 [Term]
 id: AISM:0000015
 name: cranio-cardinal articulation
-def: "The articulation between the cardo and the cranium." [] {dc:contributor="imiko https://orcid.org/0000-0003-2938-9075", creation_date="2020-10-27"}
+def: "The articulation between the cardo and the head capsule." [] {dc:contributor="imiko https://orcid.org/0000-0003-2938-9075", creation_date="2020-10-27"}
 is_a: AISM:0000002 {dc:contributor="imiko https://orcid.org/0000-0003-2938-9075"} ! insect articulation
 
 [Term]
@@ -249,7 +249,7 @@ name: insect leg {IAO:0000232="Modified 2023-04-13: removed ‘cuticle of’ fro
 def: "The cuticle of the paired appendage of the insect thorax that is composed of coxa, trochanter, femur, tibia, tarsus, and pretarsus." [] {dcterms:modified="2021-12-08", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-18"}
 is_a: AISM:0000029 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! insect appendage
 relationship: BFO:0000050 AISM:0000108 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of insect thorax
-relationship: BFO:0000051 AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part pretarsus
+relationship: BFO:0000051 AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part distitarsus
 relationship: BFO:0000051 AISM:0000075 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part tibia
 relationship: BFO:0000051 AISM:0000076 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part femur
 relationship: BFO:0000051 AISM:0000077 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part coxa
@@ -294,7 +294,7 @@ relationship: BFO:0000051 AISM:0000067 {dc:contributor="jgiron https://orcid.org
 relationship: BFO:0000051 AISM:0000070 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part profemur
 relationship: BFO:0000051 AISM:0004171 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part protrochanter
 relationship: BFO:0000051 AISM:0004190 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part protarsus
-relationship: BFO:0000051 AISM:0004194 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part propretarsus
+relationship: BFO:0000051 AISM:0004194 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part prodistitarsus
 relationship: BSPO:0000096 AISM:0000035 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! anterior to mid leg
 property_value: IAO:0000589 "cuticle of fore leg" xsd:string {creation_date="2023-04-13"}
 
@@ -309,7 +309,7 @@ relationship: BFO:0000051 AISM:0000068 {dc:contributor="jgiron https://orcid.org
 relationship: BFO:0000051 AISM:0000071 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part mesofemur
 relationship: BFO:0000051 AISM:0004172 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part mesotrochanter
 relationship: BFO:0000051 AISM:0004189 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part mesotarsus
-relationship: BFO:0000051 AISM:0004195 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part mesopretarsus
+relationship: BFO:0000051 AISM:0004195 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part mesodistitarsus
 relationship: BSPO:0000096 AISM:0000036 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! anterior to hind leg
 relationship: BSPO:0000099 AISM:0000034 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! posterior to fore leg
 property_value: IAO:0000589 "cuticle of mid leg" xsd:string {creation_date="2023-04-13"}
@@ -325,7 +325,7 @@ relationship: BFO:0000051 AISM:0000069 {dc:contributor="jgiron https://orcid.org
 relationship: BFO:0000051 AISM:0000072 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part metafemur
 relationship: BFO:0000051 AISM:0004173 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part metatrochanter
 relationship: BFO:0000051 AISM:0004188 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part metatarsus
-relationship: BFO:0000051 AISM:0004196 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part metapretarsus
+relationship: BFO:0000051 AISM:0004196 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has part metadistitarsus
 relationship: BSPO:0000099 AISM:0000035 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! posterior to mid leg
 property_value: IAO:0000589 "cuticle of hind leg" xsd:string {creation_date="2023-04-13"}
 
@@ -433,12 +433,13 @@ relationship: RO:0002150 AISM:0004126 {dc:contributor="jgiron https://orcid.org/
 
 [Term]
 id: AISM:0000047
-name: pretarsus {AISM:0000171="Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.\n\nhttps://doi.org/10.1515/9783110264043\n\n\"Pretarsus: apical element of leg bearing ungues; distinct and cylindrical in entognathous hexapods, strongly reduced in Insecta.\"", IAO:0000232="Modified 2023-04-13: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330"}
-def: "The cuticle of the appendage of the insect leg that is attached to the cuticle of tarsus by the tarso-pretarsal conjunctiva." [] {dcterms:modified="2021-12-08", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-18"}
+name: distitarsus {AISM:0000171="Dashman, T. (1953) Terminology of the pretarsus. Annals of the Entomological Society of America 46, 56–62. https://doi.org/10.1093/aesa/46.1.56\n\n\"The distitarsus is the terminal, or most distal tarsal segment\"", IAO:0000232="Modified 2026-02-14: Updated to distitarsus to better reflect distal position on the leg.\n\njgiron https://orcid.org/0000-0002-0851-6883", AISM:0000171="Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.\n\nhttps://doi.org/10.1515/9783110264043\n\n\"Pretarsus: apical element of leg bearing ungues; distinct and cylindrical in entognathous hexapods, strongly reduced in Insecta.\"", IAO:0000232="Modified 2023-04-13: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330"}
+def: "The cuticle of the appendage of the insect leg that is attached to the cuticle of tarsus by the tarso-distitarsal conjunctiva." [] {dcterms:modified="2026-02-14", dcterms:modified="2021-12-08", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-18"}
+synonym: "pretarsus" EXACT [] {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 is_a: AISM:0000029 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! insect appendage
 relationship: BFO:0000050 AISM:0000031 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of insect leg
-relationship: RO:0002150 AISM:0004187 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! continuous with tarso-pretarsal conjunctiva
-property_value: IAO:0000589 "cuticle of pretarsus" xsd:string {creation_date="2023-04-13"}
+relationship: RO:0002150 AISM:0004187 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! continuous with tarso-distitarsal conjunctiva
+property_value: IAO:0000589 "cuticle of distitarsus" xsd:string {creation_date="2023-04-13"}
 
 [Term]
 id: AISM:0000048
@@ -1303,7 +1304,7 @@ id: AISM:0000149
 name: pretarsal muscle
 def: "The somatic muscle that inserts in the pretarsus." [] {creation_date="2020-11-11", dc:contributor="imiko https://orcid.org/0000-0003-2938-9075", dcterms:modified="2021-12-13"}
 is_a: AISM:0002064 {dc:contributor="imiko https://orcid.org/0000-0003-2938-9075"} ! insect leg muscle
-relationship: RO:0002371 AISM:0000047 {dc:contributor="imiko https://orcid.org/0000-0003-2938-9075"} ! attached to pretarsus
+relationship: RO:0002371 AISM:0000047 {dc:contributor="imiko https://orcid.org/0000-0003-2938-9075"} ! attached to distitarsus
 property_value: IAO:0000232 "There are usually two muscle bands of the pretarsal muscle, one is arising from the femur, the other from the tibia. The muscle usually inserts on a resilin rich basal sclerite of the pretarsus, the unguitractor plate." xsd:string {dc:contributor="imiko https://orcid.org/0000-0003-2938-9075", creation_date="2020-11-11"}
 
 [Term]
@@ -2614,7 +2615,7 @@ is_a: AISM:0000424 {dc:contributor="gmontanaro https://orcid.org/0000-0003-0836-
 [Term]
 id: AISM:0000430
 name: metatibial posteroventral carina {creation_date="2025-03-10", dc:contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
-def: "The mesotibial carina that is located in the antero-dorsal region of the mesotibia." [] {creation_date="2025-03-10", dc:contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The metatibial carina that is located in the antero-dorsal region of the metatibia." [] {creation_date="2025-03-10", dc:contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
 is_a: AISM:0000425 {dc:contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2025-03-10"} ! metatibial carina
 
 [Term]
@@ -5014,6 +5015,9 @@ id: AISM:0004184
 name: mesotibio-mesotarsal conjunctiva
 def: "The conjunctiva that encircles the mesotarsus by joining the distal margin of the mesotibia and the proximal margin of the mesotarsus." [] {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
 is_a: AISM:0004182 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! tibio-tarsal conjunctiva
+relationship: AISM:0000078 AISM:0004189 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircles mesotarsus
+relationship: AISM:0000079 AISM:0000068 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircled by mesotibia
+relationship: BFO:0000050 AISM:0000035 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of mid leg
 
 [Term]
 id: AISM:0004185
@@ -5036,10 +5040,10 @@ relationship: RO:0002220 AISM:0000121 {dc:contributor="jgiron https://orcid.org/
 
 [Term]
 id: AISM:0004187
-name: tarso-pretarsal conjunctiva
-def: "The conjunctiva that encircles the pretarsus by joining the distal margin of the distalmost tarsomere and the proximal margin of the pretarsus." [] {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
+name: tarso-distitarsal conjunctiva {IAO:0000232="Modified 2026-02-14: Updated to distitarsal to match with updated distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The conjunctiva that encircles the distitarsus by joining the distal margin of the distalmost tarsomere and the proximal margin of the distitarsus." [] {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
 is_a: AISM:0000102 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! ring conjunctiva
-relationship: AISM:0000078 AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircles pretarsus
+relationship: AISM:0000078 AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircles distitarsus
 relationship: AISM:0000079 AISM:0004169 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircled by tarsus
 relationship: BFO:0000050 AISM:0000031 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of insect leg
 
@@ -5071,54 +5075,54 @@ property_value: IAO:0000589 "cuticle of protarsus" xsd:string {creation_date="20
 
 [Term]
 id: AISM:0004191
-name: protarso-propretarsal conjunctiva
-def: "The conjunctiva that encircles the propretarsus by joining the distal margin of the distalmost protarsomere and the proximal margin of the propretarsus." [] {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
-is_a: AISM:0004187 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! tarso-pretarsal conjunctiva
-relationship: AISM:0000078 AISM:0004194 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircles propretarsus
+name: protarso-prodistitarsal conjunctiva {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The conjunctiva that encircles the prodistitarsus by joining the distal margin of the distalmost protarsomere and the proximal margin of the prodistitarsus." [] {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
+is_a: AISM:0004187 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! tarso-distitarsal conjunctiva
+relationship: AISM:0000078 AISM:0004194 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircles prodistitarsus
 relationship: AISM:0000079 AISM:0004190 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircled by protarsus
 
 [Term]
 id: AISM:0004192
-name: mesotarso-mesopretarsal conjunctiva
-def: "The conjunctiva that encircles the mesopretarsus by joining the distal margin of the distalmost mesotarsomere and the proximal margin of the mesopretarsus." [] {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
-is_a: AISM:0004187 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! tarso-pretarsal conjunctiva
-relationship: AISM:0000078 AISM:0004195 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircles mesopretarsus
+name: mesotarso-mesodistitarsal conjunctiva {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The conjunctiva that encircles the mesodistitarsus by joining the distal margin of the distalmost mesotarsomere and the proximal margin of the mesodistitarsus." [] {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
+is_a: AISM:0004187 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! tarso-distitarsal conjunctiva
+relationship: AISM:0000078 AISM:0004195 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircles mesodistitarsus
 relationship: AISM:0000079 AISM:0004189 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircled by mesotarsus
 
 [Term]
 id: AISM:0004193
-name: metatarso-metapretarsal conjunctiva
-def: "The conjunctiva that encircles the metapretarsus by joining the distal margin of the distalmost metatarsomere and the proximal margin of the metapretarsus." [] {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
-is_a: AISM:0004187 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! tarso-pretarsal conjunctiva
-relationship: AISM:0000078 AISM:0004196 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircles metapretarsus
+name: metatarso-metadistitarsal conjunctiva {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The conjunctiva that encircles the metadistitarsus by joining the distal margin of the distalmost metatarsomere and the proximal margin of the metadistitarsus." [] {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
+is_a: AISM:0004187 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! tarso-distitarsal conjunctiva
+relationship: AISM:0000078 AISM:0004196 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircles metadistitarsus
 relationship: AISM:0000079 AISM:0004188 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! encircled by metatarsus
 
 [Term]
 id: AISM:0004194
-name: propretarsus {IAO:0000232="Modified 2023-04-13: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330"}
-def: "The cuticle of the appendage of the fore leg that is attached to the protarsus by the protarso-propretarsal conjunctiva." [] {dcterms:modified="2021-12-10", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
-is_a: AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! pretarsus
+name: prodistitarsus {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", IAO:0000232="Modified 2023-04-13: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330"}
+def: "The cuticle of the appendage of the fore leg that is attached to the protarsus by the protarso-prodistitarsal conjunctiva." [] {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", dcterms:modified="2021-12-10", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
+is_a: AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! distitarsus
 relationship: BFO:0000050 AISM:0000034 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of fore leg
-relationship: RO:0002150 AISM:0004191 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! continuous with protarso-propretarsal conjunctiva
-property_value: IAO:0000589 "cuticle of propretarsus" xsd:string {creation_date="2023-04-13"}
+relationship: RO:0002150 AISM:0004191 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! continuous with protarso-prodistitarsal conjunctiva
+property_value: IAO:0000589 "cuticle of prodistitarsus" xsd:string {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-04-13"}
 
 [Term]
 id: AISM:0004195
-name: mesopretarsus {IAO:0000232="Modified 2023-04-13: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330"}
-def: "The cuticle of the appendage of the mid leg that is attached to the mesotarsus by the mesotarso-mesopretarsal conjunctiva." [] {dcterms:modified="2021-12-10", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
-is_a: AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! pretarsus
+name: mesodistitarsus {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", IAO:0000232="Modified 2023-04-13: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330"}
+def: "The cuticle of the appendage of the mid leg that is attached to the mesotarsus by the mesotarso-mesodistitarsal conjunctiva." [] {dcterms:modified="2021-12-10", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
+is_a: AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! distitarsus
 relationship: BFO:0000050 AISM:0000035 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of mid leg
-relationship: RO:0002150 AISM:0004192 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! continuous with mesotarso-mesopretarsal conjunctiva
-property_value: IAO:0000589 "cuticle of mesopretarsus" xsd:string {creation_date="2023-04-13"}
+relationship: RO:0002150 AISM:0004192 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! continuous with mesotarso-mesodistitarsal conjunctiva
+property_value: IAO:0000589 "cuticle of mesodistitarsus" xsd:string {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-04-13"}
 
 [Term]
 id: AISM:0004196
-name: metapretarsus {IAO:0000232="Modified 2023-04-13: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330"}
-def: "The cuticle of the appendage of the hind leg that is attached to the metatarsus by the metatarso-metapretarsal conjunctiva." [] {dcterms:modified="2021-12-10", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
-is_a: AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! pretarsus
+name: metadistitarsus {IAO:0000232="Modified 2023-04-13: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330"}
+def: "The cuticle of the appendage of the hind leg that is attached to the distitarsus by the metatarso-metadistitarsal conjunctiva." [] {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", dcterms:modified="2021-12-10", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-03-28"}
+is_a: AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! distitarsus
 relationship: BFO:0000050 AISM:0000036 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of hind leg
-relationship: RO:0002150 AISM:0004193 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! continuous with metatarso-metapretarsal conjunctiva
-property_value: IAO:0000589 "cuticle of metapretarsus" xsd:string {creation_date="2023-04-13"}
+relationship: RO:0002150 AISM:0004193 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! continuous with metatarso-metadistitarsal conjunctiva
+property_value: IAO:0000589 "cuticle of metadistitarsus" xsd:string {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-04-13"}
 
 [Term]
 id: AISM:0004197
@@ -5616,20 +5620,21 @@ relationship: BSPO:0000097 AISM:0004258 {dc:contributor="jgiron https://orcid.or
 
 [Term]
 id: AISM:0004260
-name: pretarsal claw {AISM:0000171="Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.\n\nhttps://doi.org/10.1515/9783110264043\n\n\"Ungues: pretarsal claws; unpaired in Collembola and Protura, usually paired in Diplura and Insecta.\""}
-def: "The sclerite that is part of the pretarsus." [] {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-11-19"}
+name: distitarsal claw {IAO:0000232="Modified 2026-02-14: Updated to distitarsal.\njgiron https://orcid.org/0000-0002-0851-6883", AISM:0000171="Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.\n\nhttps://doi.org/10.1515/9783110264043\n\n\"Ungues: pretarsal claws; unpaired in Collembola and Protura, usually paired in Diplura and Insecta.\""}
+def: "The sclerite that is part of the distitarsus." [] {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-11-19"}
+synonym: "pretarsal claw" EXACT []
 synonym: "ungues" EXACT [] {AISM:0000171="Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.\n\nhttps://doi.org/10.1515/9783110264043\n\n\"Ungues: pretarsal claws; unpaired in Collembola and Protura, usually paired in Diplura and Insecta.\""}
 is_a: AISM:0000003 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! insect sclerite
-relationship: BFO:0000050 AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of pretarsus
+relationship: BFO:0000050 AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of distitarsus
 
 [Term]
 id: AISM:0004261
 name: empodium {AISM:0000171="Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.\n\nhttps://doi.org/10.1515/9783110264043\n\n\"Empodium: a median process between the claws and pulvilli (if present). It arises from the distal end of the unguitractor plate, is spine-shaped or lobe-like and is sometimes similar in form to the pulvilli (“empodial pulvillus”).\" p. 43.", AISM:0000171="Nichols, S. W. (1989) Torre-Bueno glossary of entomology. New York Entomological Society. 840 pp.\n\nhttps://ipmhouse.tamu.edu/files/2021/03/The-Torre-Bueno-Glossary-of-Entomology.pdf\n\n\"a spine- or lobelike process of the unguitractor\"", IAO:0000232="Modified 2023-04-13: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330"}
-def: "The cuticular protrusion that is part of the pretarsus, ventral to the tarsal claws and medial to the pulvilli (if present)." [] {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-11-19", IAO:0000232="Modified 2023-01-11: added medial to pulvilli.\njgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The cuticular protrusion that is part of the distitarsus, ventral to the distitarsal claws and medial to the pulvilli (if present)." [] {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-11-19", IAO:0000232="Modified 2023-01-11: added medial to pulvilli.\njgiron https://orcid.org/0000-0002-0851-6883"}
 is_a: AISM:0000008 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! cuticular protrusion
 relationship: AISM:0000012 AISM:0004308 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-11"} ! medial_to pulvillus
-relationship: BFO:0000050 AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of pretarsus
-relationship: BSPO:0000102 AISM:0004260 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! ventral to pretarsal claw
+relationship: BFO:0000050 AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of distitarsus
+relationship: BSPO:0000102 AISM:0004260 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! ventral to distitarsal claw
 property_value: IAO:0000589 "cuticle of empodium" xsd:string {creation_date="2023-04-13"}
 
 [Term]
@@ -6007,22 +6012,22 @@ id: AISM:0004307
 name: pretarsal seta {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-11"}
 def: "The cuticular seta that is adjacent to the cuticle of the pretarsus." [] {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-11"}
 is_a: AISM:0000039 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-11"} ! cuticular seta
-relationship: RO:0002220 AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-11"} ! adjacent to pretarsus
+relationship: RO:0002220 AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-11"} ! adjacent to distitarsus
 
 [Term]
 id: AISM:0004308
 name: pulvillus {AISM:0000171="Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.\n\nhttps://doi.org/10.1515/9783110264043\n\n\"Pulvilli: smooth or hairy paired lateral membranous lobes below the claws\". p. 44.", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", IAO:0000232="Modified 2023-04-13: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330"}
 def: "The cuticular protrusion that is part of the pretarsus, ventral to the tarsal claws." [] {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-11-19"}
 is_a: AISM:0000008 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! cuticular protrusion
-relationship: BFO:0000050 AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of pretarsus
-relationship: BSPO:0000102 AISM:0004260 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! ventral to pretarsal claw
+relationship: BFO:0000050 AISM:0000047 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of distitarsus
+relationship: BSPO:0000102 AISM:0004260 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! ventral to distitarsal claw
 relationship: RO:0000053 PATO:0040024 {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! has characteristic bilaterally paired
 property_value: IAO:0000589 "cuticle of pulvillus" xsd:string {creation_date="2023-04-13"}
 
 [Term]
 id: AISM:0004309
 name: arolium {AISM:0000171="Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.\n\nhttps://doi.org/10.1515/9783110264043\n\n\"Arolium: the median hollow lobe of the pretarsus. It can be completely membranous or partly sclerotized.\" p. 42.\n\"unpaired, between the claws\" p. 40.", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-11", IAO:0000232="Modified 2023-04-13: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330"}
-def: "The medial cuticular protrusion of the pretarsus." [] {dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-11"}
+def: "The medial cuticular protrusion of the distitarsus." [] {IAO:0000232="Modified 2026-02-14: Updated to distitarsus.\njgiron https://orcid.org/0000-0002-0851-6883", dc:contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-11"}
 property_value: IAO:0000589 "cuticle of arolium" xsd:string {creation_date="2023-04-13"}
 
 [Term]
@@ -7333,14 +7338,14 @@ property_value: oboInOwl:hasRelatedSynonym "outer valves" xsd:string {oboInOwl:h
 property_value: oboInOwl:hasRelatedSynonym "plaques carrees" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "plaques quadratiques" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "quadrate plates" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "quadratische platte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68582"}
+property_value: oboInOwl:hasRelatedSynonym "quadratische platte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253231"}
 property_value: oboInOwl:hasRelatedSynonym "quadratplatte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "tergite 9" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "tergite du 8º segment" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "tergite IX" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "tergum abdominale nonum" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98094"}
 property_value: oboInOwl:hasRelatedSynonym "tergum nonum" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98094"}
-property_value: oboInOwl:hasRelatedSynonym "écaille anale" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68583"}
+property_value: oboInOwl:hasRelatedSynonym "écaille anale" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253226"}
 property_value: oboInOwl:hasRelatedSynonym "écaille chitineuse" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "épipygium" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:id "HAO:0000075" xsd:string
@@ -7999,7 +8004,7 @@ name: hymenopteran arolium
 def: "The lobe that is connected proximodorsally with the manubrium and proximoventrally with the planta." [] {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67791"}
 is_a: AISM:0004309 ! arolium
 is_a: HAO:0001587 ! lobe
-relationship: BFO:0000050 AISM:0000047 ! part of pretarsus
+relationship: BFO:0000050 AISM:0000047 ! part of distitarsus
 property_value: oboInOwl:hasRelatedSynonym "central pad" xsd:string {oboInOwl:hasDbXref="http://projects.biodiversity.be/ants/"}
 property_value: oboInOwl:hasRelatedSynonym "empodium" xsd:string {oboInOwl:hasDbXref="http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm"}
 property_value: oboInOwl:id "HAO:0000148" xsd:string
@@ -8821,7 +8826,7 @@ property_value: oboInOwl:hasRelatedSynonym "Kapsel" xsd:string {oboInOwl:hasDbXr
 property_value: oboInOwl:hasRelatedSynonym "lame basialire" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67791", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67809"}
 property_value: oboInOwl:hasRelatedSynonym "lamina annularis" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67670", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67797", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "pièce annulaire" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67817", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
-property_value: oboInOwl:hasRelatedSynonym "pièce basilaire" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67810", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
+property_value: oboInOwl:hasRelatedSynonym "pièce basilaire" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253225"}
 property_value: oboInOwl:hasRelatedSynonym "plaque basilaire" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67812", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "praeputium" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67813", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "preputium" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/43470"}
@@ -9736,7 +9741,7 @@ property_value: oboInOwl:hasRelatedSynonym "stilett-trager" xsd:string {oboInOwl
 property_value: oboInOwl:hasRelatedSynonym "supporting plate" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "treibbein" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f="}
 property_value: oboInOwl:hasRelatedSynonym "triangular plate" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "winkel" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68582"}
+property_value: oboInOwl:hasRelatedSynonym "winkel" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253231"}
 property_value: oboInOwl:hasRelatedSynonym "winkelplatte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "winkelstuck" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "écaille du stylet" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
@@ -9750,15 +9755,15 @@ is_a: AISM:0004076 ! gonostylus VIII
 relationship: BFO:0000050 HAO:0002158 ! part of first valvifer-first valvula complex
 property_value: oboInOwl:hasRelatedSynonym "bohrborste" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "first gonapophysis" xsd:string {oboInOwl:hasDbXref="http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm"}
-property_value: oboInOwl:hasRelatedSynonym "gräte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68574"}
-property_value: oboInOwl:hasRelatedSynonym "lame de l'aiguillon" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67810", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
+property_value: oboInOwl:hasRelatedSynonym "gräte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253229"}
+property_value: oboInOwl:hasRelatedSynonym "lame de l'aiguillon" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253225"}
 property_value: oboInOwl:hasRelatedSynonym "lancet" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "saw" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "schieber" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f="}
 property_value: oboInOwl:hasRelatedSynonym "soie piquante" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "spicula" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68151"}
+property_value: oboInOwl:hasRelatedSynonym "spicula" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/177728"}
 property_value: oboInOwl:hasRelatedSynonym "stachelgrate" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "stechborste" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/29835", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68582"}
+property_value: oboInOwl:hasRelatedSynonym "stechborste" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/29835", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253231"}
 property_value: oboInOwl:hasRelatedSynonym "stilet" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "stylet" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "sägeblatt" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67800", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
@@ -13188,7 +13193,7 @@ property_value: oboInOwl:hasRelatedSynonym "parapsidal furrow" xsd:string {oboIn
 property_value: oboInOwl:hasRelatedSynonym "parapsidal signum" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/36895"}
 property_value: oboInOwl:hasRelatedSynonym "parapsides sulcus" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98117"}
 property_value: oboInOwl:hasRelatedSynonym "paraside" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67864"}
-property_value: oboInOwl:hasRelatedSynonym "sekundare Parapsiden" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68598"}
+property_value: oboInOwl:hasRelatedSynonym "sekundare Parapsiden" xsd:string {oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/44001"}
 property_value: oboInOwl:hasRelatedSynonym "sekundare Parapsidenfurchen" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98118"}
 property_value: oboInOwl:hasRelatedSynonym "suture parassidiali" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98101"}
 property_value: oboInOwl:id "HAO:0000694" xsd:string
@@ -13311,7 +13316,7 @@ is_a: AISM:0000003 ! insect sclerite
 relationship: BFO:0000050 HAO:0000091 ! part of hymenopteran aedeagus
 property_value: oboInOwl:hasRelatedSynonym "aedeagal rod" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67794", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "aedeagal sclerite" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67670", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
-property_value: oboInOwl:hasRelatedSynonym "baguettes du fourreau" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67810", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
+property_value: oboInOwl:hasRelatedSynonym "baguettes du fourreau" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253225"}
 property_value: oboInOwl:hasRelatedSynonym "crochet" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67812", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "inner or dorsal arm of the stipes" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67840", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "lamina aedeagalis" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67670", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
@@ -14332,7 +14337,7 @@ property_value: oboInOwl:id "HAO:0000819" xsd:string
 id: HAO:0000820
 name: OLD HAO pretarsus
 def: "The pretarsus that is composed of the empodium, planta, unguitractor plate, auxiliar sclerite and orbicula." [] {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68082"}
-is_a: AISM:0000047 ! pretarsus
+is_a: AISM:0000047 ! distitarsus
 relationship: BFO:0000051 HAO:0000154 ! has part auxiliar sclerite
 relationship: BFO:0000051 HAO:0000288 ! has part empodium
 relationship: BFO:0000051 HAO:0000671 ! has part orbicula
@@ -15331,7 +15336,7 @@ property_value: oboInOwl:hasRelatedSynonym "second gonocoxa" xsd:string {oboInOw
 property_value: oboInOwl:hasRelatedSynonym "untere hälfte d. seitenwand" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f="}
 property_value: oboInOwl:hasRelatedSynonym "vordere platte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "écaille du gorgeret" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "écaille latérale" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68583"}
+property_value: oboInOwl:hasRelatedSynonym "écaille latérale" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253226"}
 property_value: oboInOwl:id "HAO:0000927" xsd:string
 
 [Term]
@@ -15344,17 +15349,17 @@ property_value: oboInOwl:hasRelatedSynonym "acus" xsd:string {oboInOwl:hasDbXref
 property_value: oboInOwl:hasRelatedSynonym "back piece" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "branche et tige" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "corps tige et deux branches" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "eileiter" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68574"}
+property_value: oboInOwl:hasRelatedSynonym "eileiter" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253229"}
 property_value: oboInOwl:hasRelatedSynonym "gorgeret" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "gouttiere lamellaire" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "internal sheaths" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68151"}
+property_value: oboInOwl:hasRelatedSynonym "internal sheaths" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/177728"}
 property_value: oboInOwl:hasRelatedSynonym "mittlere gonapophysen" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "ovipositor stylet" xsd:string {oboInOwl:hasDbXref="http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm"}
 property_value: oboInOwl:hasRelatedSynonym "rinne" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "schienenrinne" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f="}
 property_value: oboInOwl:hasRelatedSynonym "second gonapophysis" xsd:string {oboInOwl:hasDbXref="http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm"}
 property_value: oboInOwl:hasRelatedSynonym "sheath" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "stachelrinne" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68582"}
+property_value: oboInOwl:hasRelatedSynonym "stachelrinne" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253231"}
 property_value: oboInOwl:hasRelatedSynonym "stachelschiene" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "stylet" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm"}
 property_value: oboInOwl:hasRelatedSynonym "support" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
@@ -16112,19 +16117,19 @@ property_value: oboInOwl:hasRelatedSynonym "gonoplac" xsd:string {oboInOwl:hasDb
 property_value: oboInOwl:hasRelatedSynonym "hintere gonapophysen" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "hüllschuppen" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f="}
 property_value: oboInOwl:hasRelatedSynonym "klappen" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/29835", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "outer sheaths" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68151"}
+property_value: oboInOwl:hasRelatedSynonym "outer sheaths" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/177728"}
 property_value: oboInOwl:hasRelatedSynonym "ovipositor sheath" xsd:string {oboInOwl:hasDbXref="http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm"}
 property_value: oboInOwl:hasRelatedSynonym "portion évaginale" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67825"}
 property_value: oboInOwl:hasRelatedSynonym "Scheide" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/29835"}
 property_value: oboInOwl:hasRelatedSynonym "scheide spitze" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "scheidenklappen" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68546"}
 property_value: oboInOwl:hasRelatedSynonym "sheath of saw" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "stachelscheiden" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68582"}
+property_value: oboInOwl:hasRelatedSynonym "stachelscheiden" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253231"}
 property_value: oboInOwl:hasRelatedSynonym "stacheltaster" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "valves" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "valves de fourreau" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "valves de la gaine du gorgeret" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "valves du fourreau" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68583"}
+property_value: oboInOwl:hasRelatedSynonym "valves du fourreau" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253226"}
 property_value: oboInOwl:id "HAO:0001012" xsd:string
 
 [Term]
@@ -16775,7 +16780,7 @@ property_value: oboInOwl:hasRelatedSynonym "ossicle" xsd:string {oboInOwl:hasDbX
 property_value: oboInOwl:hasRelatedSynonym "section 3" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67780", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "section 3 of gonocoxite IX" xsd:string {oboInOwl:hasDbXref="http://www.schulmeister.us/malereproductivesystem.html"}
 property_value: oboInOwl:hasRelatedSynonym "tenette" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67670", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
-property_value: oboInOwl:hasRelatedSynonym "volselle" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67810", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67836", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
+property_value: oboInOwl:hasRelatedSynonym "volselle" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67836", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253225"}
 property_value: oboInOwl:id "HAO:0001084" xsd:string
 
 [Term]
@@ -16927,7 +16932,7 @@ relationship: BFO:0000050 HAO:0000679 ! part of ovipositor
 property_value: oboInOwl:hasRelatedSynonym "Legescheide" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68563"}
 property_value: oboInOwl:hasRelatedSynonym "oblonge platte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "sawsheath" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68584"}
-property_value: oboInOwl:hasRelatedSynonym "Scheide" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68574"}
+property_value: oboInOwl:hasRelatedSynonym "Scheide" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253229"}
 property_value: oboInOwl:hasRelatedSynonym "Sägescheide" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67800", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:id "HAO:0001100" xsd:string
 
@@ -18861,7 +18866,7 @@ property_value: oboInOwl:id "HAO:0001318" xsd:string
 id: HAO:0001319
 name: pretarsus of protarsus
 def: "The pretarsus that is located in the protarsus." [] {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67791"}
-is_a: AISM:0000047 ! pretarsus
+is_a: AISM:0000047 ! distitarsus
 relationship: BFO:0000050 HAO:0001125 ! part of protarsus
 property_value: oboInOwl:hasRelatedSynonym "propretarsus" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98142"}
 property_value: oboInOwl:id "HAO:0001319" xsd:string
@@ -18870,7 +18875,7 @@ property_value: oboInOwl:id "HAO:0001319" xsd:string
 id: HAO:0001320
 name: pretarsus of metatarsus
 def: "The pretarsus that is located in the metatasrus." [] {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67791"}
-is_a: AISM:0000047 ! pretarsus
+is_a: AISM:0000047 ! distitarsus
 relationship: BFO:0000050 HAO:0001141 ! part of metatarsus
 property_value: oboInOwl:hasRelatedSynonym "metapretarsus" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98142"}
 property_value: oboInOwl:id "HAO:0001320" xsd:string
@@ -18879,7 +18884,7 @@ property_value: oboInOwl:id "HAO:0001320" xsd:string
 id: HAO:0001321
 name: pretarsus of mesotarsus
 def: "The pretarsus that is located on the mesotarsus." [] {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67791"}
-is_a: AISM:0000047 ! pretarsus
+is_a: AISM:0000047 ! distitarsus
 relationship: BFO:0000050 HAO:0001132 ! part of mesotarsus
 property_value: oboInOwl:hasRelatedSynonym "mesopretarsus" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98142"}
 property_value: oboInOwl:id "HAO:0001321" xsd:string

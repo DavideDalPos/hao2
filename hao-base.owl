@@ -24,7 +24,7 @@
      xmlns:oboInOwl="ttp://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hao/hao-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hao/releases/2026-02-12/hao-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hao/releases/2026-11-01/hao-base.owl"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:contributor>Davide Dal Pos (DDP) https://orcid.org/0000-0002-9122-934X</dcterms:contributor>
         <dcterms:contributor>István Mikó (IM) https://orcid.org/0000-0003-2938-9075</dcterms:contributor>
@@ -34,7 +34,7 @@
         <dcterms:description xml:lang="en">The Hymenoptera Anatomy Ontology (HAO) contains terms used to describe Hymenoptera anatomy phenotypes.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title xml:lang="en">Hymenoptera Anatomy Ontology</dcterms:title>
-        <owl:versionInfo>2026-02-12</owl:versionInfo>
+        <owl:versionInfo>2026-11-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4136,7 +4136,7 @@
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>quadratische platte</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68582</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253231</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000075"/>
@@ -4179,7 +4179,7 @@
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>écaille anale</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68583</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253226</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000075"/>
@@ -9227,8 +9227,8 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000238"/>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>pièce basilaire</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67810</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68619</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253225</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000238"/>
@@ -12352,7 +12352,7 @@
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>winkel</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68582</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253231</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000338"/>
@@ -12428,14 +12428,14 @@
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>gräte</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253229</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000339"/>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>lame de l&apos;aiguillon</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67810</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253225</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000339"/>
@@ -12467,7 +12467,7 @@
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>spicula</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68151</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/177728</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000339"/>
@@ -12481,7 +12481,7 @@
         <owl:annotatedTarget>stechborste</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/29835</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68582</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253231</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000339"/>
@@ -24784,7 +24784,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000694"/>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>sekundare Parapsiden</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68598</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/44001</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000694"/>
@@ -25233,8 +25233,8 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000707"/>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>baguettes du fourreau</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67810</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68619</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253225</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000707"/>
@@ -32089,7 +32089,7 @@ homonymy with BFO process</rdfs:comment>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>écaille latérale</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68583</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253226</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -32161,7 +32161,7 @@ homonymy with BFO process</rdfs:comment>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>eileiter</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253229</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000928"/>
@@ -32180,7 +32180,7 @@ homonymy with BFO process</rdfs:comment>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>internal sheaths</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68151</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/177728</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000928"/>
@@ -32224,7 +32224,7 @@ homonymy with BFO process</rdfs:comment>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>stachelrinne</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68582</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253231</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0000928"/>
@@ -34772,7 +34772,7 @@ homonymy with BFO process</rdfs:comment>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>outer sheaths</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68151</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/177728</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0001012"/>
@@ -34811,7 +34811,7 @@ homonymy with BFO process</rdfs:comment>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>stachelscheiden</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68582</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253231</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0001012"/>
@@ -34842,7 +34842,7 @@ homonymy with BFO process</rdfs:comment>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>valves du fourreau</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68583</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253226</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -37047,9 +37047,9 @@ homonymy with BFO process</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0001084"/>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>volselle</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67810</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67836</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68619</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253225</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -37591,7 +37591,7 @@ homonymy with BFO process</rdfs:comment>
         <owl:annotatedProperty rdf:resource="ttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>Scheide</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/67823</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://api.hymao.org/api/ref/68574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://sfg.taxonworks.org/api/v1/sources/253229</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HAO_0001100"/>

@@ -154,7 +154,6 @@
 <http://purl.obolibrary.org/obo/HAO_0001511>	"The articular process that is located laterally on the distal margin of the mesotrochanter and bears the femoral condyle of the mesotrochanter."	
 <http://purl.obolibrary.org/obo/AISM_0000167>	"The region of cuticle where two sclerites meet."@en	
 <http://purl.obolibrary.org/obo/HAO_0001483>	"The spiracular muscle that arises from the lateral spiracular apodeme of the abdominal sternum 6 and inserts on the 6th abdominal spiracle."	
-<http://purl.obolibrary.org/obo/AISM_0004196>	"The cuticle of the appendage of the hind leg that is attached to the metatarsus by the metatarso-metapretarsal conjunctiva."@en	
 <http://purl.obolibrary.org/obo/HAO_0001735>	"The area that is located anteriorly on the second metasomal sternum and overlaps ventrally the petiole."	
 <http://purl.obolibrary.org/obo/HAO_0000318>	"The line that extends along the border of the eye and lower face."	
 <http://purl.obolibrary.org/obo/HAO_0002437>	"The area that is posterior to the anatomical line connecting the left and right labial palpal excisions."	
@@ -167,7 +166,6 @@
 <http://purl.obolibrary.org/obo/CL_0000150>	"A specialized epithelial cell that is capable of synthesizing and secreting certain biomolecules."	"CALOHA:TS-2085 FMA:86494"
 <http://purl.obolibrary.org/obo/HAO_0001192>	"The intrinsic leg muscle that arises ventrally from the protibia and inserts ventrally on the articular membrane of the protibio-probasitarsal joint."	
 <http://purl.obolibrary.org/obo/HAO_0002100>	"The margin of the posterior stipital sclerite that is concave and accommodates the base of the maxillary palp."	
-<http://purl.obolibrary.org/obo/AISM_0004195>	"The cuticle of the appendage of the mid leg that is attached to the mesotarsus by the mesotarso-mesopretarsal conjunctiva."@en	
 <http://purl.obolibrary.org/obo/HAO_0000498>	"The line that crosses the dorsal profurcal lamella and corresponds to the site of origin of the anterior profurcal lamella."	
 <http://purl.obolibrary.org/obo/AISM_0000128>	"The region of cuticle that corresponds to the evagination of the single layer epithelium."@en	
 <http://purl.obolibrary.org/obo/AISM_0004142>	"The region of the cuticle on the lateral region of the prothorax that is attached to the pronotum and the prosternum, and is attached to the procoxa by the procoxal muscle and the basal procoxal conjunctiva."@en	
@@ -418,6 +416,7 @@
 <http://purl.obolibrary.org/obo/HAO_0000021>		
 <http://purl.obolibrary.org/obo/HAO_0001004>	"The subdivision of the ovipositor that is composed of the paired first and second valvulae."	
 <http://purl.obolibrary.org/obo/HAO_0001357>	"The pleural ridge that marks the ventral margin of the site of origin of the second mesopleuro-mesonotal and the dorsal margin of the mesopleuro-mesocoxal muscles and is located anteroventrally of the speculum."	
+<http://purl.obolibrary.org/obo/AISM_0000047>	"The cuticle of the appendage of the insect leg that is attached to the cuticle of tarsus by the tarso-distitarsal conjunctiva."@en	
 <http://purl.obolibrary.org/obo/HAO_0001095>	"The area that is linear and sclerotised and acts as support for the wing membrane."	
 <http://purl.obolibrary.org/obo/HAO_0001794>	"The propodeal muscle that arises from the metapleuron."	
 <http://purl.obolibrary.org/obo/HAO_0002080>	"The fossa that is on the cardo and articulates with the cardinal condyle of the lorum."	
@@ -534,7 +533,6 @@
 <http://purl.obolibrary.org/obo/HAO_0001448>	"The protrochanteral muscle that arises anteriorly from the procoxa and inserts on the proximal margin of the protrochanter just lateral of the anterior coxal fossa of the protrochanter."	
 <http://purl.obolibrary.org/obo/HAO_0000971>	"The impression extends along the lateral margin of the metasomal mediotergite."	
 <http://purl.obolibrary.org/obo/HAO_0000322>	"The setiferous patch that is located sublaterally on an abdominal sternum."	
-<http://purl.obolibrary.org/obo/AISM_0004192>	"The conjunctiva that encircles the mesopretarsus by joining the distal margin of the distalmost mesotarsomere and the proximal margin of the mesopretarsus."@en	
 <http://purl.obolibrary.org/obo/HAO_0001089>	"The appendage that is between the notum and the pectus and is connected to the body by the axillary sclerite muscles."	
 <http://purl.obolibrary.org/obo/HAO_0000340>	"The line that secondarily divides a sclerite."	
 <http://purl.obolibrary.org/obo/AISM_0004042>	"The posterior region of the head capsule that is continuous with the posterior region of the gena and is anterior to the postoccipital ridge."@en	
@@ -550,7 +548,6 @@
 <http://purl.obolibrary.org/obo/HAO_0000934>	"The sensillum that is curved."	
 <http://purl.obolibrary.org/obo/HAO_0000115>	"The mesofurco-mesolaterophragmal muscle that originates from the mesofurca and inserts anteriorly on the mesolaterophragma."	
 <http://purl.obolibrary.org/obo/HAO_0002210>	"The row of setae of the glossa that is adjacent to the distal glossal edge."	
-<http://purl.obolibrary.org/obo/AISM_0004187>	"The conjunctiva that encircles the pretarsus by joining the distal margin of the distalmost tarsomere and the proximal margin of the pretarsus."@en	
 <http://purl.obolibrary.org/obo/AISM_0004009>	"The conjunctiva of the insect maxilla that connects the stipes and the lacinia."@en	
 <http://purl.obolibrary.org/obo/HAO_0001401>	"The lateral pectal fossa of the coxa that is located laterally on the proximal margin of the metacoxa and accommodates the lateral coxal articular process of the metapleuron."	
 <http://purl.obolibrary.org/obo/HAO_0002460>	"The median anatomical line of the pronotum in dorsal view."	
@@ -717,6 +714,7 @@
 <http://purl.obolibrary.org/obo/HAO_0001057>	"The hypopharyngeal muscle that is unpaired and arises from the median anterior part of the tentorial bridge and inserts on the proximal part of the ventral wall of the cibarium or on the proximal margin of the sitophore, immediately distally to the point where the alimentary canal passes between the lateral arms of the sitophore."	
 <http://purl.obolibrary.org/obo/AISM_0000146>	"The coxal muscle of the metacoxa."@en	
 <http://purl.obolibrary.org/obo/HAO_0002227>	"The scrobe of the prementum that is adjacent to and extends lateral to the premental carina and accommodates the medial part of the posterior stipital sclerite."	
+<http://purl.obolibrary.org/obo/AISM_0004193>	"The conjunctiva that encircles the metadistitarsus by joining the distal margin of the distalmost metatarsomere and the proximal margin of the metadistitarsus."@en	
 <http://purl.obolibrary.org/obo/HAO_0001379>	"The intrinsic leg muscle that arises medially from the profemur and inserts on the genuflexor plate of the fore leg."	
 <http://purl.obolibrary.org/obo/AISM_0002069>	"The insect thoracic muscle that extends between the sternum and the pleura."@en	
 <http://purl.obolibrary.org/obo/HAO_0001928>	"The area that is located anteroventrally on the lateral axillar area, accommodates the ventral part of the posterior extension of the preaxilla and bears the postmedian notal wing process."	
@@ -750,7 +748,6 @@
 <http://purl.obolibrary.org/obo/HAO_0000728>	"The line of separation between the pleural region and the venter, lying mesad of the limb bases, but obscured when the latter are fused with the sterna."	
 <http://purl.obolibrary.org/obo/HAO_0002330>	"The angle of the proximodistal axis of the seta to the contour line of the bodypart where the seta is located."	
 <http://purl.obolibrary.org/obo/HAO_0002009>	"The area that is located anteriorly on the median mesoscutal lobe and is differently angled from the rest of the median mesoscutal lobe."	
-<http://purl.obolibrary.org/obo/AISM_0000047>	"The cuticle of the appendage of the insect leg that is attached to the cuticle of tarsus by the tarso-pretarsal conjunctiva."@en	
 <http://purl.obolibrary.org/obo/HAO_0002253>	"The distance that is the shortest between the compound eye and the anterior tentorial pit and the compound eye."	
 <http://purl.obolibrary.org/obo/HAO_0002013>	"The carina that extends laterally on the mesonotum along the mesoscutal suprahumeral sulcus."	
 <http://purl.obolibrary.org/obo/HAO_0001388>	"The articular process that is located on the ventral margin of the metapectus medially of the metacoxal foramen and bears the medial coxal condyle of the metapectus."	
@@ -887,7 +884,6 @@
 <http://purl.obolibrary.org/obo/HAO_0001610>	"The acrosternite that is located on abdominal sternum 5."	
 <http://purl.obolibrary.org/obo/HAO_0002194>	"The sclerite that is ringlike and is connected distolaterally to the prementum via conjunctiva and muscle."	
 <http://purl.obolibrary.org/obo/AISM_0004045>	"The dorsolateral region of the head capsule that is posterior to the postoccipital ridge"@en	
-<http://purl.obolibrary.org/obo/AISM_0000430>	"The mesotibial carina that is located in the antero-dorsal region of the mesotibia."@en	
 <http://purl.obolibrary.org/obo/AISM_0000374>	"The anatomical margin that is part of the tibia."@en	
 <http://purl.obolibrary.org/obo/AISM_0000355>	"The insect abdomen that has abdominal sternites 1-7 and does not have abdominal sternite 8."@en	
 <http://purl.obolibrary.org/obo/AISM_0000109>	"The region of the cuticle that is an insect tagmatic subdivision of the integument, posterior to the thorax."@en	
@@ -935,6 +931,7 @@
 <http://purl.obolibrary.org/obo/AISM_0002061>	"The somatic muscle that is attached to the head capsule and the tentorium."@en	
 <http://purl.obolibrary.org/obo/HAO_0001126>	"The tarsomere that is distal to and connected to the probasitarsus."	
 <http://purl.obolibrary.org/obo/HAO_0000806>	"The sulcus that arises medially from the anterior margin of the occipital carina and extends towards the anterior ocellus."	
+<http://purl.obolibrary.org/obo/AISM_0004309>	"The medial cuticular protrusion of the distitarsus."@en	
 <http://purl.obolibrary.org/obo/HAO_0000742>	"The process that is located anterolaterally on the mesoscutellar-axillar complex between the site of origin of the fore wing and the site of origin of the hind wing."	
 <http://purl.obolibrary.org/obo/HAO_0000387>	"The apodeme that is located proximally on the ventral part of the gonostipes."	
 <http://purl.obolibrary.org/obo/HAO_0000065>	"Acellular anatomical structure that consists of a thin sheet of fibrous proteins that underlie and support the cells of an epithelium. It separates the cells of an epithelium from any underlying tissue."	
@@ -1055,6 +1052,7 @@
 <http://purl.obolibrary.org/obo/AISM_0004149>	"The region of cuticle of the dorso-lateral region of the pterothorax that is surrounded by the noto-pleural conjunctiva and articulated with the episternum."@en	
 <http://purl.obolibrary.org/obo/AISM_0004012>	"The conjunctiva of the insect maxilla that connects the palpifer and the maxillary palpus."@en	
 <http://purl.obolibrary.org/obo/HAO_0000831>		
+<http://purl.obolibrary.org/obo/AISM_0000015>	"The articulation between the cardo and the head capsule."@en	
 <http://purl.obolibrary.org/obo/HAO_0000770>	"The edge that is located at the intersection of the dorsal and lateral margins of the pronotum."	
 <http://purl.obolibrary.org/obo/HAO_0001193>	"The intrinsic leg muscle that arises anteriorly from the tibia and inserts ventrally on the proximal margin of the metabasitarsus."	
 <http://purl.obolibrary.org/obo/AISM_0000149>	"The somatic muscle that inserts in the pretarsus."@en	
@@ -1122,6 +1120,7 @@
 <http://purl.obolibrary.org/obo/HAO_0001442>	"The articulation that is composed of the anterior trochanteral articular process of the metacoxa and the anterior coxal fossa of the metatrochanter."	
 <http://purl.obolibrary.org/obo/HAO_0002558>	"The flattened conjunctival invagination at the posterior margin of the Waterston's evaporatorium that folds over the posterior region of the evaporatorium."	
 <http://purl.obolibrary.org/obo/AISM_0000449>	"The anatomical line parallel to the left-right body axis that is adjacent to the medial margins of the eyes."@en	
+<http://purl.obolibrary.org/obo/AISM_0004195>	"The cuticle of the appendage of the mid leg that is attached to the mesotarsus by the mesotarso-mesodistitarsal conjunctiva."@en	
 <http://purl.obolibrary.org/obo/HAO_0001853>	"The sulcus that corresponds to the metaphragma."	
 <http://purl.obolibrary.org/obo/HAO_0000518>	"The impression that is longitudinal and located medially on the abdominal tergum 1."	
 <http://purl.obolibrary.org/obo/HAO_0002078>	"The articular process that is located distomedially on the cardo and articulates with the stipes."	
@@ -1222,7 +1221,6 @@
 <http://purl.obolibrary.org/obo/HAO_0001637>	"The mandibular muscle arises ventrolaterally from the anterior part of the anterior tentorial arm and inserts dorsomedially on the proximal part of mandible."	
 <http://purl.obolibrary.org/obo/HAO_0000482>		
 <http://purl.obolibrary.org/obo/AISM_0000532>	"The cuticular evagination constituted by conjunctiva that is circular."@en	
-<http://purl.obolibrary.org/obo/AISM_0004193>	"The conjunctiva that encircles the metapretarsus by joining the distal margin of the distalmost metatarsomere and the proximal margin of the metapretarsus."@en	
 <http://purl.obolibrary.org/obo/AISM_0000428>	"The mesotibial carina that is located in the antero-dorsal region of the mesotibia."@en	
 <http://purl.obolibrary.org/obo/HAO_0001329>	"The articular process that is located posteriorly on the distal margin of the procoxa and inserts into the posterior coxal fossa of the protrochanter."	
 <http://purl.obolibrary.org/obo/HAO_0000693>	"The area that is narrow and connects the parapenis with the rest of the gonostipes."	
@@ -1265,7 +1263,8 @@
 <http://purl.obolibrary.org/obo/HAO_0000926>	"The gonostyle/volsella complex-harpal muscle that inserts on the median wall of the harpe and arises proximally of the site of origin of the distal gonostyle/volsella complex-harpal muscle."	
 <http://purl.obolibrary.org/obo/HAO_0001586>	"The anatomical structure that is linear."	
 <http://purl.obolibrary.org/obo/HAO_0001717>	"The carina that is transverse and is located on the metascutellum."	
-<http://purl.obolibrary.org/obo/UBERON_0000165>	"The proximal portion of the digestive tract, containing the oral cavity and bounded by the oral opening. In vertebrates, this extends to the pharynx and includes gums, lips, tongue and parts of the palate. Typically also includes the teeth, except where these occur elsewhere (e.g. pharyngeal jaws) or protrude from the mouth (tusks)."	"SCTID:21082005 CALOHA:TS-1315 galen:Mouth BTO:0001090 ZFA:0000547 MESH:D009055 MAT:0000038 FMA:49184 Wikipedia:Mouth MA:0002474 EFO:0000825 BTO:0004698 http://purl.obolibrary.org/obo/uberon/images/lamprey_sucker_rosava_3238889218.jpg TAO:0000547 EHDAA:542 AAO:0010355 VHOG:0000280 ZFA:0000590 EHDAA2:0001326 MIAA:0000038 TGMA:0000131 TAO:0000590 GAID:75 EMAPA:16262 VHOG:0000812 TADS:0000040 MA:0000341 XAO:0003029"
+<http://purl.obolibrary.org/obo/AISM_0004194>	"The cuticle of the appendage of the fore leg that is attached to the protarsus by the protarso-prodistitarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/UBERON_0000165>	"The proximal portion of the digestive tract, containing the oral cavity and bounded by the oral opening. In vertebrates, this extends to the pharynx and includes gums, lips, tongue and parts of the palate. Typically also includes the teeth, except where these occur elsewhere (e.g. pharyngeal jaws) or protrude from the mouth (tusks)."	"SCTID:21082005 CALOHA:TS-1315 galen:Mouth BTO:0001090 ZFA:0000547 Wikipedia:Mouth MESH:D009055 MAT:0000038 FMA:49184 MA:0002474 EFO:0000825 BTO:0004698 http://purl.obolibrary.org/obo/uberon/images/lamprey_sucker_rosava_3238889218.jpg TAO:0000547 EHDAA:542 AAO:0010355 VHOG:0000280 ZFA:0000590 EHDAA2:0001326 MIAA:0000038 TGMA:0000131 TAO:0000590 GAID:75 EMAPA:16262 VHOG:0000812 TADS:0000040 MA:0000341 XAO:0003029"
 <http://purl.obolibrary.org/obo/HAO_0001919>	"The carina that arises submedially from the anterior margin of the metapectal-propodeal complex, is longitudinal and extends towards the propodeal foramen."	
 <http://purl.obolibrary.org/obo/HAO_0001013>	"The body segment that is located in the thorax."	
 <http://purl.obolibrary.org/obo/HAO_0001641>	"The metacoxal muscle that arises laterally from the metanotum, anterior to the site of origin of the posterior metanoto-metacoxal muscle."	
@@ -1354,7 +1353,6 @@
 <http://purl.obolibrary.org/obo/AISM_0004222>	"The conjunctiva of the insect thorax that joins the notum and the pleuron."@en	
 <http://purl.obolibrary.org/obo/HAO_0000256>	"The carina that extends along the dorsal margin of the mesometapleuron."	
 <http://purl.obolibrary.org/obo/HAO_0001236>	"The condyle that is located on the proximal articular process of the tarsomere and inserts into the distal fossa of the preceeding sclerite."	
-<http://purl.obolibrary.org/obo/AISM_0004261>	"The cuticular protrusion that is part of the pretarsus, ventral to the tarsal claws and medial to the pulvilli (if present)."@en	
 <http://purl.obolibrary.org/obo/PATO_0000411>	"A shape quality inhering in a bearer by virtue of the bearer's being such that every part of the surface or the circumference is equidistant from the center."	
 <http://purl.obolibrary.org/obo/HAO_0001088>	"The evaporatorium that is located medially on the acrotergite of abdominal tergite 7."	
 <http://purl.obolibrary.org/obo/HAO_0001369>	"The propleuro-postoccipital muscle that arises medially from the propleuron."	
@@ -1386,7 +1384,6 @@
 <http://purl.obolibrary.org/obo/AISM_0004312>	"The region of the insect wing that is posterior to the radial field of the insect wing."@en	
 <http://purl.obolibrary.org/obo/HAO_0001471>	"The spiracular muscle that arises from the lateral sternal apodeme of the abdominal sternum 5 and inserts on the 5th abdominal spiracle."	
 <http://purl.obolibrary.org/obo/HAO_0001730>	"The multiporous plate sensillum that is olfactory in function."	
-<http://purl.obolibrary.org/obo/AISM_0000015>	"The articulation between the cardo and the cranium."@en	
 <http://purl.obolibrary.org/obo/BSPO_0000027>	"Anatomical region that overlaps the anterior and ventral regions of a body or body part."	
 <http://purl.obolibrary.org/obo/AISM_0000178>	"The solid cuticular protrusion that coincides with only one epidermal cell (smaller than the diameter of the epidermal cell)."@en	
 <http://purl.obolibrary.org/obo/HAO_0002544>	"The intrinsic leg muscle that arises laterally (dorsally) of the femur and inserts on the dorsal process of the tibia."	
@@ -1604,6 +1601,7 @@
 <http://purl.obolibrary.org/obo/HAO_0002004>	"The sternite that is located on the abdominal segment 3."	
 <http://purl.obolibrary.org/obo/HAO_0002196>	"The sclerite that is ringlike and is connected distally to the second sclerite of the labial palp via conjunctiva and muscle."	
 <http://purl.obolibrary.org/obo/HAO_0001647>	"The area that is located ventrally on the mesopectus between the mesocoxal depression and the epicnemial carina."	
+<http://purl.obolibrary.org/obo/AISM_0004191>	"The conjunctiva that encircles the prodistitarsus by joining the distal margin of the distalmost protarsomere and the proximal margin of the prodistitarsus."@en	
 <http://purl.obolibrary.org/obo/HAO_0001514>	"The femoral condyle of the tibia that is located on the protibia."	
 <http://purl.obolibrary.org/obo/HAO_0000798>	"The tooth that is located distodorsally on the mandible."	
 <http://purl.obolibrary.org/obo/HAO_0002005>	"The tergite that is located on the metasoma."	
@@ -1800,6 +1798,7 @@
 <http://purl.obolibrary.org/obo/HAO_0002350>	"The arithmetic mean of the maximum cephalic length in median line and the dorsal head width."	
 <http://purl.obolibrary.org/obo/AISM_0004168>	"The cuticle of the segment of a leg attached to the distal margin of the coxa by the coxal-trochanteral conjunctiva and to the proximal margin of the femur by the trochantero-femoral conjunctiva."@en	
 <http://purl.obolibrary.org/obo/HAO_0002028>	"The ridge that delimits posteriorly the pulsatory organ of the mesoscutellum."	
+<http://purl.obolibrary.org/obo/AISM_0004260>	"The sclerite that is part of the distitarsus."@en	
 <http://purl.obolibrary.org/obo/HAO_0002193>	"The anatomical line that is parallel with the longitudinal body axis and the shortest among the anatomical line that extends between the anterior and posterior margins of the dorsal projection of the second valvifer."	
 <http://purl.obolibrary.org/obo/HAO_0000412>	"The subforaminal bridge that is delimited laterally by the dorsally extended hypostomal carina."	
 <http://purl.obolibrary.org/obo/HAO_0001920>	"The area that extends along the inner margin of the compound eye and is differentiated from the rest of the frons by different coloration."	
@@ -2077,6 +2076,7 @@
 <http://purl.obolibrary.org/obo/HAO_0002354>	"The area of the petiolar node that is dorsomedial, and oriented dorsally and is delimited anteriorly by the anterior petiolar profile and posteriorly by the caudal petiolar profile."	
 <http://purl.obolibrary.org/obo/HAO_0000399>	"The leg that is located on the metathorax."	
 <http://purl.obolibrary.org/obo/AISM_0000130>	"The seta that has one opening distally."@en	
+<http://purl.obolibrary.org/obo/AISM_0004187>	"The conjunctiva that encircles the distitarsus by joining the distal margin of the distalmost tarsomere and the proximal margin of the distitarsus."@en	
 <http://purl.obolibrary.org/obo/HAO_0000526>	"The ocellus that is located medially on the cranium."	
 <http://purl.obolibrary.org/obo/AISM_0004004>	"The sclerite of the labium that is anterior to the submentum and posterior to the prementum, and attached to the prementum by the mental-premental conjunctiva."@en	
 <http://purl.obolibrary.org/obo/AISM_0004027>	"The lateral region of the head capsule that connects dorsally to the ventral side of the gena and ventrally to the mandible."@en	
@@ -2307,7 +2307,7 @@
 <http://purl.obolibrary.org/obo/HAO_0001977>	"The margin that delimits the wing anteriorly."	
 <http://purl.obolibrary.org/obo/HAO_0000508>	"The condyle that is located ventrally (posteriorly) on the proximolateral edge of the mandible and inserts into the pleurostomal fossa."	
 <http://purl.obolibrary.org/obo/HAO_0001675>	"The abdominal muscle that inserts on the second abdominal sternum."	
-<http://purl.obolibrary.org/obo/UBERON_0000955>	"The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP]."	"ZFA:0000008 GAID:571 BIRNLEX:796 MBA:8 EHDAA:2641 BAMS:Br EHDAA:6485 XAO:0000010 galen:Brain MIAA:0000098 EMAPA:16894 neuronames:21 FMA:50801 ABA:Brain UMLS:C1269537 BILA:0000135 EHDAA2:0000183 EFO:0000302 MAT:0000098 DHBA:10155 UMLS:C0006104 BAMS:Brain TAO:0000008 AAO:0010478 HBA:4005 EV:0100164 NCIT:C12439 MA:0000168 MESH:D001921 SCTID:258335003 Wikipedia:Brain BTO:0000142 PBA:3999 VHOG:0000157 MBA:997 CALOHA:TS-0095"
+<http://purl.obolibrary.org/obo/UBERON_0000955>	"The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP]."	"ZFA:0000008 GAID:571 BIRNLEX:796 MBA:8 EHDAA:2641 BAMS:Br EHDAA:6485 XAO:0000010 galen:Brain MIAA:0000098 neuronames:21 EMAPA:16894 FMA:50801 ABA:Brain UMLS:C1269537 BILA:0000135 EHDAA2:0000183 EFO:0000302 MAT:0000098 DHBA:10155 UMLS:C0006104 BAMS:Brain TAO:0000008 AAO:0010478 HBA:4005 EV:0100164 NCIT:C12439 MA:0000168 MESH:D001921 SCTID:258335003 Wikipedia:Brain BTO:0000142 PBA:3999 VHOG:0000157 MBA:997 CALOHA:TS-0095"
 <http://purl.obolibrary.org/obo/HAO_0001488>	"The sclerite that encircles ventrolaterally the proximal part of the arolium."	
 <http://purl.obolibrary.org/obo/HAO_0001901>	"The flagellomere that is located immediately distal to the tenth flagellomere."	
 <http://purl.obolibrary.org/obo/HAO_0002148>	"The sclerite on the intercardinal area that is not paired."	
@@ -2391,6 +2391,7 @@
 <http://purl.obolibrary.org/obo/HAO_0000416>	"The projection that is located on the posterolateral margin of the oral foramen at the junction of the hypostoma and the pleurostomal fossa."	
 <http://purl.obolibrary.org/obo/HAO_0000070>		
 <http://purl.obolibrary.org/obo/HAO_0000999>		
+<http://purl.obolibrary.org/obo/AISM_0004196>	"The cuticle of the appendage of the hind leg that is attached to the distitarsus by the metatarso-metadistitarsal conjunctiva."@en	
 <http://purl.obolibrary.org/obo/UBERON_0001002>	"Tough but flexible, non-mineral outer coverings of an organism, or parts of an organism, that provide protection. Cuticles are non-homologous, differing in their origin, structure and chemical composition[WP]."	"Wikipedia:Cuticle BTO:0001600"
 <http://purl.obolibrary.org/obo/HAO_0000609>	"The carina that delimits the metapleuron dorsally from the propodeum, extends from just ventral of the metapleural arm to the metacoxal articulation and passes anteroventral to the propodeal spiracle."	
 <http://purl.obolibrary.org/obo/AISM_0000157>	"The cuticular depression that is elongated and coincides with the distal side of an insect sclerite."@en	
@@ -2535,7 +2536,6 @@
 <http://purl.obolibrary.org/obo/HAO_0002032>	"The setiferous patch that is one of a pair of patches located posteriorly of the anterior margin of abdominal tergum 9."	
 <http://purl.obolibrary.org/obo/HAO_0001166>	"The ovipositor muscle that arises from the anterodorsal part of the second valvifer and inserts subapically on the processus articulares."	
 <http://purl.obolibrary.org/obo/HAO_0001584>		
-<http://purl.obolibrary.org/obo/AISM_0004194>	"The cuticle of the appendage of the fore leg that is attached to the protarsus by the protarso-propretarsal conjunctiva."@en	
 <http://purl.obolibrary.org/obo/HAO_0000917>		
 <http://purl.obolibrary.org/obo/HAO_0001862>	"The axillary cord that is located on the hind wing."	
 <http://purl.obolibrary.org/obo/AISM_0004058>	"The sclerite of the insect abdomen that is ventral and medial."@en	
@@ -2725,7 +2725,6 @@
 <http://purl.obolibrary.org/obo/AISM_0004067>	"The region of the cuticle in the postabdomen that is attached to the genital chamber."@en	
 <http://purl.obolibrary.org/obo/HAO_0000480>	"The anatomical line that is the shortest between the margins of the  median and lateral ocelli."	
 <http://purl.obolibrary.org/obo/HAO_0000118>	"The mesofurcal muscle that originates from the mesopleuron and inserts distally on the mesofurca."	
-<http://purl.obolibrary.org/obo/AISM_0004260>	"The sclerite that is part of the pretarsus."@en	
 <http://purl.obolibrary.org/obo/AISM_0000357>	"The antenna that has scapus, pedicellus, and flagellomeres 1-6, and does not have flagellomere 7."@en	
 <http://purl.obolibrary.org/obo/HAO_0001957>	"The area that is raised and  extends from between the antennal foramina to the posterior margin of the clypeus."	
 <http://purl.obolibrary.org/obo/HAO_0000149>	"The anatomical line that extends on the border between two articulating sclerites."	
@@ -2763,7 +2762,6 @@
 <http://purl.obolibrary.org/obo/AISM_0000414>	"The bilaterally paired anatomical margin part of the anterior region of the clypeal margin that is lateral to lateral clypeal teeth 1 and medial to latera clypeal tooth 2."	
 <http://purl.obolibrary.org/obo/HAO_0002420>	"The conjunctiva that connects the lateral end of the antecostal sulcus of the first abdominal tergum with the anterior margin of the metanoto-propodeo-metapecto-mesopectal complex."	
 <http://purl.obolibrary.org/obo/HAO_0000102>	"The anatomical cluster that is composed of the probasitarsus and calcar."	
-<http://purl.obolibrary.org/obo/AISM_0004191>	"The conjunctiva that encircles the propretarsus by joining the distal margin of the distalmost protarsomere and the proximal margin of the propretarsus."@en	
 <http://purl.obolibrary.org/obo/HAO_0001272>	"The area of the metapectal-propodeal complex that is located anteriorly of the metapleural sulcus and laterally of the metadiscrimen."	
 <http://purl.obolibrary.org/obo/HAO_0001291>	"The seta that is located apically on the gonstyle."	
 <http://purl.obolibrary.org/obo/HAO_0002189>	"The ovipositor muscle that arises from the interarticular ridge of the first valvifer and inserts on the second valvifer."	
@@ -2779,6 +2777,7 @@
 <http://purl.obolibrary.org/obo/HAO_0001661>	"The maxillar muscle that arises from the posterior sclerite of the stipes medial to the site of origin of the stipito-lacinial muscle and inserts on the median wall of the galeo-lacinial complex distal to the stipito-lacinial muscle."	
 <http://purl.obolibrary.org/obo/HAO_0001644>	"The mesocoxal muscle that arises from the mesonotum and inserts on the posterior margin of the mesocoxa."	
 <http://purl.obolibrary.org/obo/HAO_0001258>	"The condyle that is located on the femoral articular process of the mesotrochanter and inserts into the trochanteral fossa of the mesofemur."	
+<http://purl.obolibrary.org/obo/AISM_0000430>	"The metatibial carina that is located in the antero-dorsal region of the metatibia."@en	
 <http://purl.obolibrary.org/obo/HAO_0001886>	"The edge that traverses the upper face between the antennal foramen and the median ocellus separating a more horizontal dorsal and a more vertical ventral area."	
 <http://purl.obolibrary.org/obo/HAO_0000941>	"The carina that delimits the skaphion posteriorly."	
 <http://purl.obolibrary.org/obo/HAO_0001025>	"The carina that delimits the supraalar area posteriorly."	
@@ -3115,6 +3114,7 @@
 <http://purl.obolibrary.org/obo/HAO_0000945>	"The invagination just proximal to the vagina that accommodates sperms."	
 <http://purl.obolibrary.org/obo/HAO_0001120>	"The tibial spur that is located on the mesotibia."	
 <http://purl.obolibrary.org/obo/AISM_0000009>	"The cuticular depression that is adjacent to a cuticular condyle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004261>	"The cuticular protrusion that is part of the distitarsus, ventral to the distitarsal claws and medial to the pulvilli (if present)."@en	
 <http://purl.obolibrary.org/obo/HAO_0001151>	"The mediotergite that is located on abdominal tergum 4."	
 <http://purl.obolibrary.org/obo/AISM_0000138>	"The cuticular invagination that is hollow."@en	
 <http://purl.obolibrary.org/obo/AISM_0000067>	"The cuticle of the segment of a fore leg attached to the distal margin of the profemur by the profemoro-protibial conjunctiva."@en	
@@ -3163,6 +3163,7 @@
 <http://purl.obolibrary.org/obo/HAO_0000325>		
 <http://purl.obolibrary.org/obo/HAO_0000458>		
 <http://purl.obolibrary.org/obo/HAO_0001381>	"The medial pectal fossa of the coxa that is located medially on the proximal margin of the mesocoxa and accommodates the medial coxal condyle of the mesopectus."	
+<http://purl.obolibrary.org/obo/AISM_0004192>	"The conjunctiva that encircles the mesodistitarsus by joining the distal margin of the distalmost mesotarsomere and the proximal margin of the mesodistitarsus."@en	
 <http://purl.obolibrary.org/obo/HAO_0002304>	"The sensillum coeloconicum, in which the diameter of the tip of the hairlike cuticular component is 1/3-1/5 of the diameter of the surrounding depression."	
 <http://purl.obolibrary.org/obo/HAO_0001108>	"The head muscle that inserts on the pharynx."	
 <http://purl.obolibrary.org/obo/HAO_0000791>	"The sulcus that extends between the posterior margin of the lateral ocelli."	
@@ -3209,7 +3210,6 @@
 <http://purl.obolibrary.org/obo/HAO_0001791>	"The intersegmental membrane that is located between the mesopectus and the pronotum."	
 <http://purl.obolibrary.org/obo/HAO_0000766>		
 <http://purl.obolibrary.org/obo/HAO_0000942>	"The sclerite that is unpaired and located just dorsally of the basal part of the aedeagus in some Aculeata."	
-<http://purl.obolibrary.org/obo/AISM_0004309>	"The medial cuticular protrusion of the pretarsus."@en	
 <http://purl.obolibrary.org/obo/AISM_0000043>	"The cuticle of the mouthpart and sclerite between the cuticle of the labrum and the cuticle of the insect maxilla that is attached to the head capsule by the oral foraminal conjunctiva and the cranio-mandibular muscle."@en	
 <http://purl.obolibrary.org/obo/AISM_0002023>	"The cranio-mandibular muscle that extends between the anterior tentorial arm and the proximal-ventral margin of the insect mandible."@en	
 <http://purl.obolibrary.org/obo/AISM_0000099>	"The conjunctiva of the insect head that connects the head capsule and the mouthparts."@en	

@@ -26,7 +26,7 @@ Prefix(oboInOwl1:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hao.owl>
-<http://purl.obolibrary.org/obo/hao/releases/2026-02-12/hao.owl>
+<http://purl.obolibrary.org/obo/hao/releases/2026-11-01/hao.owl>
 Annotation(dcterms:contributor "Davide Dal Pos (DDP) https://orcid.org/0000-0002-9122-934X")
 Annotation(dcterms:contributor "István Mikó (IM) https://orcid.org/0000-0003-2938-9075")
 Annotation(dcterms:contributor "James P. Balhoff (JBalhoff) https://orcid.org/0000-0002-8688-6599")
@@ -35,7 +35,7 @@ Annotation(dcterms:contributor "Sergei Tarasov (STarasov) https://orcid.org/0000
 Annotation(dcterms:description "The Hymenoptera Anatomy Ontology (HAO) contains terms used to describe Hymenoptera anatomy phenotypes."@en)
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Hymenoptera Anatomy Ontology"@en)
-Annotation(owl:versionInfo "2026-02-12")
+Annotation(owl:versionInfo "2026-11-01")
 
 Declaration(Class(obo:AISM_0000000))
 Declaration(Class(obo:AISM_0000001))
@@ -6622,7 +6622,7 @@ SymmetricObjectProperty(obo:RO_0002150)
 ObjectPropertyDomain(obo:RO_0002150 obo:BFO_0000004)
 ObjectPropertyRange(obo:RO_0002150 obo:BFO_0000004)
 
-# Object Property: obo:RO_0002160 (only in taxon)
+# Object Property: obo:RO_0002160 (only_in_taxon)
 
 AnnotationAssertion(obo:IAO_0000115 obo:RO_0002160 "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.")
 AnnotationAssertion(oboInOwl1:hasDbXref obo:RO_0002160 "RO:0002160")
@@ -6863,7 +6863,7 @@ SubClassOf(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-907
 
 # Class: obo:AISM_0000015 (cranio-cardinal articulation)
 
-AnnotationAssertion(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-9075") Annotation(oboInOwl1:creation_date "2020-10-27") obo:IAO_0000115 obo:AISM_0000015 "The articulation between the cardo and the cranium."@en)
+AnnotationAssertion(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-9075") Annotation(oboInOwl1:creation_date "2020-10-27") obo:IAO_0000115 obo:AISM_0000015 "The articulation between the cardo and the head capsule."@en)
 AnnotationAssertion(rdfs:label obo:AISM_0000015 "cranio-cardinal articulation"@en)
 SubClassOf(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-9075") obo:AISM_0000015 obo:AISM_0000002)
 SubClassOf(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-9075") obo:AISM_0000015 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(obo:AISM_0000018 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 obo:BSPO_0000070) ObjectSomeValuesFrom(obo:RO_0002220 obo:AISM_0000019)))))
@@ -7249,16 +7249,21 @@ SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-68
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0000046 ObjectSomeValuesFrom(obo:RO_0002150 obo:AISM_0004125))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0000046 ObjectSomeValuesFrom(obo:RO_0002150 obo:AISM_0004126))
 
-# Class: obo:AISM_0000047 (pretarsus)
+# Class: obo:AISM_0000047 (distitarsus)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(dcterms:modified "2021-12-08") Annotation(oboInOwl1:creation_date "2021-03-18") obo:IAO_0000115 obo:AISM_0000047 "The cuticle of the appendage of the insect leg that is attached to the cuticle of tarsus by the tarso-pretarsal conjunctiva."@en)
-AnnotationAssertion(Annotation(oboInOwl1:creation_date "2023-04-13") obo:IAO_0000589 obo:AISM_0000047 "cuticle of pretarsus"@en)
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(dcterms:modified "2021-12-08") Annotation(dcterms:modified "2026-02-14") Annotation(oboInOwl1:creation_date "2021-03-18") obo:IAO_0000115 obo:AISM_0000047 "The cuticle of the appendage of the insect leg that is attached to the cuticle of tarsus by the tarso-distitarsal conjunctiva."@en)
+AnnotationAssertion(Annotation(oboInOwl1:creation_date "2023-04-13") obo:IAO_0000589 obo:AISM_0000047 "cuticle of distitarsus"@en)
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883"@en) oboInOwl1:hasExactSynonym obo:AISM_0000047 "pretarsus")
 AnnotationAssertion(Annotation(obo:AISM_0000171 "Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.
 
 https://doi.org/10.1515/9783110264043
 
-\"Pretarsus: apical element of leg bearing ungues; distinct and cylindrical in entognathous hexapods, strongly reduced in Insecta.\""@en) Annotation(obo:IAO_0000232 "Modified 2023-04-13: removed ‘cuticle of’ from label.
-starasov https://orcid.org/0000-0001-5237-2330"@en) rdfs:label obo:AISM_0000047 "pretarsus"@en)
+\"Pretarsus: apical element of leg bearing ungues; distinct and cylindrical in entognathous hexapods, strongly reduced in Insecta.\""@en) Annotation(obo:AISM_0000171 "Dashman, T. (1953) Terminology of the pretarsus. Annals of the Entomological Society of America 46, 56–62. https://doi.org/10.1093/aesa/46.1.56
+
+\"The distitarsus is the terminal, or most distal tarsal segment\"") Annotation(obo:IAO_0000232 "Modified 2023-04-13: removed ‘cuticle of’ from label.
+starasov https://orcid.org/0000-0001-5237-2330"@en) Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus to better reflect distal position on the leg.
+
+jgiron https://orcid.org/0000-0002-0851-6883") rdfs:label obo:AISM_0000047 "distitarsus"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0000047 obo:AISM_0000029)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0000047 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000031))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0000047 ObjectSomeValuesFrom(obo:RO_0002150 obo:AISM_0004187))
@@ -9834,7 +9839,7 @@ SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-083
 
 # Class: obo:AISM_0000430 (metatibial posteroventral carina)
 
-AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl1:creation_date "2025-03-10") obo:IAO_0000115 obo:AISM_0000430 "The mesotibial carina that is located in the antero-dorsal region of the mesotibia."@en)
+AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl1:creation_date "2025-03-10") obo:IAO_0000115 obo:AISM_0000430 "The metatibial carina that is located in the antero-dorsal region of the metatibia."@en)
 AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl1:creation_date "2025-03-10") rdfs:label obo:AISM_0000430 "metatibial posteroventral carina"@en)
 SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl1:creation_date "2025-03-10") obo:AISM_0000430 obo:AISM_0000425)
 SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl1:creation_date "2025-03-10") obo:AISM_0000430 ObjectSomeValuesFrom(obo:RO_0001025 ObjectIntersectionOf(obo:BSPO_0000035 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000069))))
@@ -13386,6 +13391,11 @@ SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-68
 AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004184 "The conjunctiva that encircles the mesotarsus by joining the distal margin of the mesotibia and the proximal margin of the mesotarsus."@en)
 AnnotationAssertion(rdfs:label obo:AISM_0004184 "mesotibio-mesotarsal conjunctiva"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004184 obo:AISM_0004182)
+SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004184 ObjectSomeValuesFrom(obo:AISM_0000078 obo:AISM_0004189))
+SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004184 ObjectSomeValuesFrom(obo:AISM_0000079 obo:AISM_0000068))
+SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004184 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000035))
+SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004184 ObjectSomeValuesFrom(obo:RO_0002150 ObjectIntersectionOf(obo:BSPO_0000677 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0004189))))
+SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004184 ObjectSomeValuesFrom(obo:RO_0002150 ObjectIntersectionOf(obo:BSPO_0000678 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000068))))
 
 # Class: obo:AISM_0004185 (metatibio-metatarsal conjunctiva)
 
@@ -13409,10 +13419,11 @@ SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-68
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004186 ObjectSomeValuesFrom(obo:RO_0002220 obo:AISM_0000052))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004186 ObjectSomeValuesFrom(obo:RO_0002220 obo:AISM_0000121))
 
-# Class: obo:AISM_0004187 (tarso-pretarsal conjunctiva)
+# Class: obo:AISM_0004187 (tarso-distitarsal conjunctiva)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004187 "The conjunctiva that encircles the pretarsus by joining the distal margin of the distalmost tarsomere and the proximal margin of the pretarsus."@en)
-AnnotationAssertion(rdfs:label obo:AISM_0004187 "tarso-pretarsal conjunctiva"@en)
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004187 "The conjunctiva that encircles the distitarsus by joining the distal margin of the distalmost tarsomere and the proximal margin of the distitarsus."@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsal to match with updated distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883") rdfs:label obo:AISM_0004187 "tarso-distitarsal conjunctiva"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004187 obo:AISM_0000102)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004187 ObjectSomeValuesFrom(obo:AISM_0000078 obo:AISM_0000047))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004187 ObjectSomeValuesFrom(obo:AISM_0000079 obo:AISM_0004169))
@@ -13455,64 +13466,77 @@ SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-68
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004190 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000034))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004190 ObjectSomeValuesFrom(obo:RO_0002220 ObjectIntersectionOf(obo:BSPO_0000678 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000067))))
 
-# Class: obo:AISM_0004191 (protarso-propretarsal conjunctiva)
+# Class: obo:AISM_0004191 (protarso-prodistitarsal conjunctiva)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004191 "The conjunctiva that encircles the propretarsus by joining the distal margin of the distalmost protarsomere and the proximal margin of the propretarsus."@en)
-AnnotationAssertion(rdfs:label obo:AISM_0004191 "protarso-propretarsal conjunctiva"@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004191 "The conjunctiva that encircles the prodistitarsus by joining the distal margin of the distalmost protarsomere and the proximal margin of the prodistitarsus."@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) rdfs:label obo:AISM_0004191 "protarso-prodistitarsal conjunctiva"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004191 obo:AISM_0004187)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004191 ObjectSomeValuesFrom(obo:AISM_0000078 obo:AISM_0004194))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004191 ObjectSomeValuesFrom(obo:AISM_0000079 obo:AISM_0004190))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004191 ObjectSomeValuesFrom(obo:RO_0002150 ObjectIntersectionOf(obo:BSPO_0000677 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0004194))))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004191 ObjectSomeValuesFrom(obo:RO_0002150 ObjectIntersectionOf(obo:BSPO_0000678 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0004190))))
 
-# Class: obo:AISM_0004192 (mesotarso-mesopretarsal conjunctiva)
+# Class: obo:AISM_0004192 (mesotarso-mesodistitarsal conjunctiva)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004192 "The conjunctiva that encircles the mesopretarsus by joining the distal margin of the distalmost mesotarsomere and the proximal margin of the mesopretarsus."@en)
-AnnotationAssertion(rdfs:label obo:AISM_0004192 "mesotarso-mesopretarsal conjunctiva"@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004192 "The conjunctiva that encircles the mesodistitarsus by joining the distal margin of the distalmost mesotarsomere and the proximal margin of the mesodistitarsus."@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) rdfs:label obo:AISM_0004192 "mesotarso-mesodistitarsal conjunctiva"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004192 obo:AISM_0004187)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004192 ObjectSomeValuesFrom(obo:AISM_0000078 obo:AISM_0004195))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004192 ObjectSomeValuesFrom(obo:AISM_0000079 obo:AISM_0004189))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004192 ObjectSomeValuesFrom(obo:RO_0002150 ObjectIntersectionOf(obo:BSPO_0000677 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0004195))))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004192 ObjectSomeValuesFrom(obo:RO_0002150 ObjectIntersectionOf(obo:BSPO_0000678 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0004189))))
 
-# Class: obo:AISM_0004193 (metatarso-metapretarsal conjunctiva)
+# Class: obo:AISM_0004193 (metatarso-metadistitarsal conjunctiva)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004193 "The conjunctiva that encircles the metapretarsus by joining the distal margin of the distalmost metatarsomere and the proximal margin of the metapretarsus."@en)
-AnnotationAssertion(rdfs:label obo:AISM_0004193 "metatarso-metapretarsal conjunctiva"@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004193 "The conjunctiva that encircles the metadistitarsus by joining the distal margin of the distalmost metatarsomere and the proximal margin of the metadistitarsus."@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) rdfs:label obo:AISM_0004193 "metatarso-metadistitarsal conjunctiva"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004193 obo:AISM_0004187)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004193 ObjectSomeValuesFrom(obo:AISM_0000078 obo:AISM_0004196))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004193 ObjectSomeValuesFrom(obo:AISM_0000079 obo:AISM_0004188))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004193 ObjectSomeValuesFrom(obo:RO_0002150 ObjectIntersectionOf(obo:BSPO_0000677 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0004196))))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004193 ObjectSomeValuesFrom(obo:RO_0002150 ObjectIntersectionOf(obo:BSPO_0000678 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0004188))))
 
-# Class: obo:AISM_0004194 (propretarsus)
+# Class: obo:AISM_0004194 (prodistitarsus)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(dcterms:modified "2021-12-10") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004194 "The cuticle of the appendage of the fore leg that is attached to the protarsus by the protarso-propretarsal conjunctiva."@en)
-AnnotationAssertion(Annotation(oboInOwl1:creation_date "2023-04-13") obo:IAO_0000589 obo:AISM_0004194 "cuticle of propretarsus"@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(dcterms:modified "2021-12-10") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004194 "The cuticle of the appendage of the fore leg that is attached to the protarsus by the protarso-prodistitarsal conjunctiva."@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(oboInOwl1:creation_date "2023-04-13") obo:IAO_0000589 obo:AISM_0004194 "cuticle of prodistitarsus"@en)
 AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2023-04-13: removed ‘cuticle of’ from label.
-starasov https://orcid.org/0000-0001-5237-2330"@en) rdfs:label obo:AISM_0004194 "propretarsus"@en)
+starasov https://orcid.org/0000-0001-5237-2330"@en) Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) rdfs:label obo:AISM_0004194 "prodistitarsus"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004194 obo:AISM_0000047)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004194 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000034))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004194 ObjectSomeValuesFrom(obo:RO_0002150 obo:AISM_0004191))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004194 ObjectSomeValuesFrom(obo:RO_0002220 ObjectIntersectionOf(obo:BSPO_0000678 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0004190))))
 
-# Class: obo:AISM_0004195 (mesopretarsus)
+# Class: obo:AISM_0004195 (mesodistitarsus)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(dcterms:modified "2021-12-10") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004195 "The cuticle of the appendage of the mid leg that is attached to the mesotarsus by the mesotarso-mesopretarsal conjunctiva."@en)
-AnnotationAssertion(Annotation(oboInOwl1:creation_date "2023-04-13") obo:IAO_0000589 obo:AISM_0004195 "cuticle of mesopretarsus"@en)
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(dcterms:modified "2021-12-10") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004195 "The cuticle of the appendage of the mid leg that is attached to the mesotarsus by the mesotarso-mesodistitarsal conjunctiva."@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(oboInOwl1:creation_date "2023-04-13") obo:IAO_0000589 obo:AISM_0004195 "cuticle of mesodistitarsus"@en)
 AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2023-04-13: removed ‘cuticle of’ from label.
-starasov https://orcid.org/0000-0001-5237-2330"@en) rdfs:label obo:AISM_0004195 "mesopretarsus"@en)
+starasov https://orcid.org/0000-0001-5237-2330"@en) Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) rdfs:label obo:AISM_0004195 "mesodistitarsus"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004195 obo:AISM_0000047)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004195 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000035))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004195 ObjectSomeValuesFrom(obo:RO_0002150 obo:AISM_0004192))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004195 ObjectSomeValuesFrom(obo:RO_0002220 ObjectIntersectionOf(obo:BSPO_0000678 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0004189))))
 
-# Class: obo:AISM_0004196 (metapretarsus)
+# Class: obo:AISM_0004196 (metadistitarsus)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(dcterms:modified "2021-12-10") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004196 "The cuticle of the appendage of the hind leg that is attached to the metatarsus by the metatarso-metapretarsal conjunctiva."@en)
-AnnotationAssertion(Annotation(oboInOwl1:creation_date "2023-04-13") obo:IAO_0000589 obo:AISM_0004196 "cuticle of metapretarsus"@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(dcterms:modified "2021-12-10") Annotation(oboInOwl1:creation_date "2021-03-28") obo:IAO_0000115 obo:AISM_0004196 "The cuticle of the appendage of the hind leg that is attached to the distitarsus by the metatarso-metadistitarsal conjunctiva."@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(oboInOwl1:creation_date "2023-04-13") obo:IAO_0000589 obo:AISM_0004196 "cuticle of metadistitarsus"@en)
 AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2023-04-13: removed ‘cuticle of’ from label.
-starasov https://orcid.org/0000-0001-5237-2330"@en) rdfs:label obo:AISM_0004196 "metapretarsus"@en)
+starasov https://orcid.org/0000-0001-5237-2330"@en) rdfs:label obo:AISM_0004196 "metadistitarsus"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004196 obo:AISM_0000047)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004196 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000036))
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004196 ObjectSomeValuesFrom(obo:RO_0002150 obo:AISM_0004193))
@@ -14152,9 +14176,11 @@ jgiron https://orcid.org/0000-0002-0851-6883"@en) rdfs:label obo:AISM_0004259 "b
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004259 obo:AISM_0004244)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004259 ObjectSomeValuesFrom(obo:BSPO_0000097 obo:AISM_0004258))
 
-# Class: obo:AISM_0004260 (pretarsal claw)
+# Class: obo:AISM_0004260 (distitarsal claw)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-11-19") obo:IAO_0000115 obo:AISM_0004260 "The sclerite that is part of the pretarsus."@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-11-19") obo:IAO_0000115 obo:AISM_0004260 "The sclerite that is part of the distitarsus."@en)
+AnnotationAssertion(oboInOwl1:hasExactSynonym obo:AISM_0004260 "pretarsal claw"@en)
 AnnotationAssertion(Annotation(obo:AISM_0000171 "Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.
 
 https://doi.org/10.1515/9783110264043
@@ -14164,14 +14190,16 @@ AnnotationAssertion(Annotation(obo:AISM_0000171 "Beutel RG, Friedrich F, Yang X-
 
 https://doi.org/10.1515/9783110264043
 
-\"Ungues: pretarsal claws; unpaired in Collembola and Protura, usually paired in Diplura and Insecta.\""@en) rdfs:label obo:AISM_0004260 "pretarsal claw"@en)
+\"Ungues: pretarsal claws; unpaired in Collembola and Protura, usually paired in Diplura and Insecta.\""@en) Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsal.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) rdfs:label obo:AISM_0004260 "distitarsal claw"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004260 obo:AISM_0000003)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:AISM_0004260 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000047))
 
 # Class: obo:AISM_0004261 (empodium)
 
 AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2023-01-11: added medial to pulvilli.
-jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-11-19") obo:IAO_0000115 obo:AISM_0004261 "The cuticular protrusion that is part of the pretarsus, ventral to the tarsal claws and medial to the pulvilli (if present)."@en)
+jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2021-11-19") obo:IAO_0000115 obo:AISM_0004261 "The cuticular protrusion that is part of the distitarsus, ventral to the distitarsal claws and medial to the pulvilli (if present)."@en)
 AnnotationAssertion(Annotation(oboInOwl1:creation_date "2023-04-13") obo:IAO_0000589 obo:AISM_0004261 "cuticle of empodium"@en)
 AnnotationAssertion(Annotation(obo:AISM_0000171 "Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.
 
@@ -14704,7 +14732,8 @@ SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-68
 
 # Class: obo:AISM_0004309 (arolium)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2023-01-11") obo:IAO_0000115 obo:AISM_0004309 "The medial cuticular protrusion of the pretarsus."@en)
+AnnotationAssertion(Annotation(obo:IAO_0000232 "Modified 2026-02-14: Updated to distitarsus.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl1:creation_date "2023-01-11") obo:IAO_0000115 obo:AISM_0004309 "The medial cuticular protrusion of the distitarsus."@en)
 AnnotationAssertion(Annotation(oboInOwl1:creation_date "2023-04-13") obo:IAO_0000589 obo:AISM_0004309 "cuticle of arolium"@en)
 AnnotationAssertion(Annotation(obo:AISM_0000171 "Beutel RG, Friedrich F, Yang X-K, Ge S-Q (2014) Insect Morphology and Phylogeny Insect morphology and phylogeny: a textbook for students of entomology. De Gruyter.
 
@@ -16028,14 +16057,14 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "plaques carrees")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "plaques quadratiques")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "quadrate plates")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68582") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "quadratische platte")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253231") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "quadratische platte")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "quadratplatte")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "tergite 9")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "tergite IX")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "tergite du 8º segment")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/98094") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "tergum abdominale nonum")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/98094") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "tergum nonum")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68583") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "écaille anale")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253226") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "écaille anale")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "écaille chitineuse")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000075 "épipygium")
 AnnotationAssertion(oboInOwl:id obo:HAO_0000075 "HAO:0000075")
@@ -17517,7 +17546,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67791") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67809") oboInOwl:hasRelatedSynonym obo:HAO_0000238 "lame basialire")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67670") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67797") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0000238 "lamina annularis")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67817") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0000238 "pièce annulaire")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67810") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0000238 "pièce basilaire")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253225") oboInOwl:hasRelatedSynonym obo:HAO_0000238 "pièce basilaire")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67812") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0000238 "plaque basilaire")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67813") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0000238 "praeputium")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/43470") oboInOwl:hasRelatedSynonym obo:HAO_0000238 "preputium")
@@ -18432,7 +18461,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000338 "supporting plate")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f=") oboInOwl:hasRelatedSynonym obo:HAO_0000338 "treibbein")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000338 "triangular plate")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68582") oboInOwl:hasRelatedSynonym obo:HAO_0000338 "winkel")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253231") oboInOwl:hasRelatedSynonym obo:HAO_0000338 "winkel")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000338 "winkelplatte")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000338 "winkelstuck")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000338 "écaille du stylet")
@@ -18446,15 +18475,15 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/
 AnnotationAssertion(rdfs:label obo:HAO_0000339 "first valvula")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "bohrborste")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "first gonapophysis")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68574") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "gräte")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67810") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "lame de l'aiguillon")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253229") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "gräte")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253225") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "lame de l'aiguillon")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "lancet")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "saw")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f=") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "schieber")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "soie piquante")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68151") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "spicula")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/177728") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "spicula")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "stachelgrate")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/29835") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68582") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "stechborste")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/29835") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253231") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "stechborste")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "stilet")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "stylet")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67800") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000339 "sägeblatt")
@@ -21883,7 +21912,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/36895") oboInOwl:hasRelatedSynonym obo:HAO_0000694 "parapsidal signum")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/98117") oboInOwl:hasRelatedSynonym obo:HAO_0000694 "parapsides sulcus")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67864") oboInOwl:hasRelatedSynonym obo:HAO_0000694 "paraside")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68598") oboInOwl:hasRelatedSynonym obo:HAO_0000694 "sekundare Parapsiden")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/44001") oboInOwl:hasRelatedSynonym obo:HAO_0000694 "sekundare Parapsiden")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/98118") oboInOwl:hasRelatedSynonym obo:HAO_0000694 "sekundare Parapsidenfurchen")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/98101") oboInOwl:hasRelatedSynonym obo:HAO_0000694 "suture parassidiali")
 AnnotationAssertion(oboInOwl:id obo:HAO_0000694 "HAO:0000694")
@@ -22006,7 +22035,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/
 AnnotationAssertion(rdfs:label obo:HAO_0000707 "penisvalva")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67794") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0000707 "aedeagal rod")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67670") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0000707 "aedeagal sclerite")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67810") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0000707 "baguettes du fourreau")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253225") oboInOwl:hasRelatedSynonym obo:HAO_0000707 "baguettes du fourreau")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67812") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0000707 "crochet")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67840") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0000707 "inner or dorsal arm of the stipes")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67670") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0000707 "lamina aedeagalis")
@@ -24029,7 +24058,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://canacoll.org/Hym/Staff
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f=") oboInOwl:hasRelatedSynonym obo:HAO_0000927 "untere hälfte d. seitenwand")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000927 "vordere platte")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000927 "écaille du gorgeret")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68583") oboInOwl:hasRelatedSynonym obo:HAO_0000927 "écaille latérale")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253226") oboInOwl:hasRelatedSynonym obo:HAO_0000927 "écaille latérale")
 AnnotationAssertion(oboInOwl:id obo:HAO_0000927 "HAO:0000927")
 SubClassOf(obo:HAO_0000927 obo:AISM_0000174)
 SubClassOf(obo:HAO_0000927 ObjectSomeValuesFrom(obo:BFO_0000050 obo:HAO_0002181))
@@ -24042,17 +24071,17 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "back piece")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "branche et tige")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "corps tige et deux branches")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68574") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "eileiter")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253229") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "eileiter")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "gorgeret")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "gouttiere lamellaire")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68151") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "internal sheaths")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/177728") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "internal sheaths")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "mittlere gonapophysen")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "ovipositor stylet")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "rinne")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f=") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "schienenrinne")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "second gonapophysis")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "sheath")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68582") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "stachelrinne")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253231") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "stachelrinne")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "stachelschiene")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "stylet")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0000928 "support")
@@ -24810,18 +24839,18 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "hintere gonapophysen")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f=") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "hüllschuppen")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/29835") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "klappen")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68151") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "outer sheaths")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/177728") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "outer sheaths")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "ovipositor sheath")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67825") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "portion évaginale")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "scheide spitze")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68546") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "scheidenklappen")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "sheath of saw")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68582") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "stachelscheiden")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253231") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "stachelscheiden")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "stacheltaster")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "valves")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "valves de fourreau")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "valves de la gaine du gorgeret")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68583") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "valves du fourreau")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253226") oboInOwl:hasRelatedSynonym obo:HAO_0001012 "valves du fourreau")
 AnnotationAssertion(oboInOwl:id obo:HAO_0001012 "HAO:0001012")
 SubClassOf(obo:HAO_0001012 obo:AISM_0000003)
 SubClassOf(obo:HAO_0001012 ObjectSomeValuesFrom(obo:BFO_0000050 obo:HAO_0000680))
@@ -25471,7 +25500,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67780") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0001084 "section 3")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://www.schulmeister.us/malereproductivesystem.html") oboInOwl:hasRelatedSynonym obo:HAO_0001084 "section 3 of gonocoxite IX")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67670") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0001084 "tenette")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67810") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67836") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") oboInOwl:hasRelatedSynonym obo:HAO_0001084 "volselle")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67836") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68619") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253225") oboInOwl:hasRelatedSynonym obo:HAO_0001084 "volselle")
 AnnotationAssertion(oboInOwl:id obo:HAO_0001084 "HAO:0001084")
 SubClassOf(obo:HAO_0001084 obo:AISM_0000174)
 SubClassOf(obo:HAO_0001084 ObjectSomeValuesFrom(obo:BFO_0000050 obo:HAO_0000713))
@@ -25623,7 +25652,7 @@ SubClassOf(obo:HAO_0001099 ObjectSomeValuesFrom(obo:BFO_0000050 obo:HAO_0000397)
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68116") obo:IAO_0000115 obo:HAO_0001100 "The region of the ovipositor that composed of the second valvifer and the third valvula.")
 AnnotationAssertion(rdfs:label obo:HAO_0001100 "gaine")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68563") oboInOwl:hasRelatedSynonym obo:HAO_0001100 "Legescheide")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68574") oboInOwl:hasRelatedSynonym obo:HAO_0001100 "Scheide")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "https://sfg.taxonworks.org/api/v1/sources/253229") oboInOwl:hasRelatedSynonym obo:HAO_0001100 "Scheide")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67800") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0001100 "Sägescheide")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") oboInOwl:hasRelatedSynonym obo:HAO_0001100 "oblonge platte")
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/67823") Annotation(oboInOwl:hasDbXref "http://api.hymao.org/api/ref/68584") oboInOwl:hasRelatedSynonym obo:HAO_0001100 "sawsheath")

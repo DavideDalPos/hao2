@@ -193,7 +193,7 @@
 <http://purl.obolibrary.org/obo/AISM_0000033>	<http://www.w3.org/2000/01/rdf-schema#label>	"insect wing"@en	
 <http://purl.obolibrary.org/obo/HAO_0001140>	<http://www.w3.org/2000/01/rdf-schema#label>	"metafemur"	
 <http://purl.obolibrary.org/obo/HAO_0001613>	<http://www.w3.org/2000/01/rdf-schema#label>	"acrosternite 8"	
-<http://purl.obolibrary.org/obo/AISM_0000047>	<http://www.w3.org/2000/01/rdf-schema#label>	"pretarsus"@en	
+<http://purl.obolibrary.org/obo/AISM_0000047>	<http://www.w3.org/2000/01/rdf-schema#label>	"distitarsus"@en	
 <http://purl.obolibrary.org/obo/HAO_0000360>	<http://www.w3.org/2000/01/rdf-schema#label>	"DEPRECATED frontal suture"	
 <http://purl.obolibrary.org/obo/CL_0000066>	<http://www.w3.org/2000/01/rdf-schema#label>	"epithelial cell"	
 <http://purl.obolibrary.org/obo/HAO_0001593>	<http://www.w3.org/2000/01/rdf-schema#label>	"occipito-lacinial muscle"	
@@ -2753,7 +2753,7 @@
 <http://purl.obolibrary.org/obo/AISM_0004158>	<http://www.w3.org/2000/01/rdf-schema#label>	"katepisternum"@en	
 <http://purl.obolibrary.org/obo/AISM_0004100>	<http://www.w3.org/2000/01/rdf-schema#label>	"abdominal sternite I"@en	
 <http://purl.obolibrary.org/obo/AISM_0004073>	<http://www.w3.org/2000/01/rdf-schema#label>	"paraphyses"@en	
-<http://purl.obolibrary.org/obo/AISM_0004195>	<http://www.w3.org/2000/01/rdf-schema#label>	"mesopretarsus"@en	
+<http://purl.obolibrary.org/obo/AISM_0004195>	<http://www.w3.org/2000/01/rdf-schema#label>	"mesodistitarsus"@en	
 <http://purl.obolibrary.org/obo/AISM_0004082>	<http://www.w3.org/2000/01/rdf-schema#label>	"metanoto-abdominal tergite I conjunctiva"@en	
 <http://purl.obolibrary.org/obo/AISM_0000181>	<http://www.w3.org/2000/01/rdf-schema#label>	"tibial spur"@en	
 <http://purl.obolibrary.org/obo/AISM_0004108>	<http://www.w3.org/2000/01/rdf-schema#label>	"abdominal sternite VI"@en	
@@ -2789,8 +2789,8 @@
 <http://purl.obolibrary.org/obo/UBERON_0034925>	<http://www.w3.org/2000/01/rdf-schema#label>	"anatomical collection"	
 <http://purl.obolibrary.org/obo/AISM_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"galea"@en	
 <http://purl.obolibrary.org/obo/AISM_0000385>	<http://www.w3.org/2000/01/rdf-schema#label>	"clypeal margin"@en	
-<http://purl.obolibrary.org/obo/AISM_0000532>	<http://www.w3.org/2000/01/rdf-schema#label>	"conjunctival tubercle"@en	
 <http://purl.obolibrary.org/obo/AISM_0002008>	<http://www.w3.org/2000/01/rdf-schema#label>	"medial scapo-pedicellar muscle"@en	
+<http://purl.obolibrary.org/obo/AISM_0000532>	<http://www.w3.org/2000/01/rdf-schema#label>	"conjunctival tubercle"@en	
 <http://purl.obolibrary.org/obo/BSPO_0000015>	<http://www.w3.org/2000/01/rdf-schema#label>	"proximal-distal axis"	
 <http://purl.obolibrary.org/obo/PATO_0000407>	<http://www.w3.org/2000/01/rdf-schema#label>	"flat"	
 <http://purl.obolibrary.org/obo/AISM_0000112>	<http://www.w3.org/2000/01/rdf-schema#label>	"cranio-antennal conjunctiva"@en	
@@ -2822,7 +2822,7 @@
 <http://purl.obolibrary.org/obo/AISM_0004259>	<http://www.w3.org/2000/01/rdf-schema#label>	"basal fold of the insect wing"@en	
 <http://purl.obolibrary.org/obo/AISM_0000132>	<http://www.w3.org/2000/01/rdf-schema#label>	"placoid sensillum"@en	
 <http://purl.obolibrary.org/obo/AISM_0000363>	<http://www.w3.org/2000/01/rdf-schema#label>	"lateral clypeal tooth 2"@en	
-<http://purl.obolibrary.org/obo/AISM_0004187>	<http://www.w3.org/2000/01/rdf-schema#label>	"tarso-pretarsal conjunctiva"@en	
+<http://purl.obolibrary.org/obo/AISM_0004187>	<http://www.w3.org/2000/01/rdf-schema#label>	"tarso-distitarsal conjunctiva"@en	
 <http://purl.obolibrary.org/obo/AISM_0004080>	<http://www.w3.org/2000/01/rdf-schema#label>	"precoxal sulcus"@en	
 <http://purl.obolibrary.org/obo/AISM_0002022>	<http://www.w3.org/2000/01/rdf-schema#label>	"superolateral tentorio-mandibular muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0000334>	<http://www.w3.org/2000/01/rdf-schema#label>	"flagellomere 2"@en	
@@ -2902,7 +2902,7 @@
 <http://purl.obolibrary.org/obo/AISM_0000137>	<http://www.w3.org/2000/01/rdf-schema#label>	"malphigian tube"@en	
 <http://purl.obolibrary.org/obo/AISM_0002080>	<http://www.w3.org/2000/01/rdf-schema#label>	"prophragma-tentorial muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0004156>	<http://www.w3.org/2000/01/rdf-schema#label>	"anapleural sulcus"@en	
-<http://purl.obolibrary.org/obo/AISM_0004193>	<http://www.w3.org/2000/01/rdf-schema#label>	"metatarso-metapretarsal conjunctiva"@en	
+<http://purl.obolibrary.org/obo/AISM_0004193>	<http://www.w3.org/2000/01/rdf-schema#label>	"metatarso-metadistitarsal conjunctiva"@en	
 <http://purl.obolibrary.org/obo/AISM_0004106>	<http://www.w3.org/2000/01/rdf-schema#label>	"abdominal sternite IV"@en	
 <http://purl.obolibrary.org/obo/AISM_0002027>	<http://www.w3.org/2000/01/rdf-schema#label>	"cranio-cardinal muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0000339>	<http://www.w3.org/2000/01/rdf-schema#label>	"flagellomere 7"@en	
@@ -2917,7 +2917,7 @@
 <http://purl.obolibrary.org/obo/PATO_0000117>	<http://www.w3.org/2000/01/rdf-schema#label>	"size"	
 <http://purl.obolibrary.org/obo/AISM_0000434>	<http://www.w3.org/2000/01/rdf-schema#label>	"mesotibial spur"@en	
 <http://purl.obolibrary.org/obo/AISM_0000064>	<http://www.w3.org/2000/01/rdf-schema#label>	"mesocoxa"@en	
-<http://purl.obolibrary.org/obo/AISM_0004260>	<http://www.w3.org/2000/01/rdf-schema#label>	"pretarsal claw"@en	
+<http://purl.obolibrary.org/obo/AISM_0004260>	<http://www.w3.org/2000/01/rdf-schema#label>	"distitarsal claw"@en	
 <http://purl.obolibrary.org/obo/AISM_0000355>	<http://www.w3.org/2000/01/rdf-schema#label>	"abdomen with 7 sternites"@en	
 <http://purl.obolibrary.org/obo/AISM_0000014>	<http://www.w3.org/2000/01/rdf-schema#label>	"insect cranio-mandibular articulation"@en	
 <http://purl.obolibrary.org/obo/AISM_0004294>	<http://www.w3.org/2000/01/rdf-schema#label>	"insect abdominal segment VII"@en	
@@ -2996,7 +2996,7 @@
 <http://purl.obolibrary.org/obo/AISM_0004001>	<http://www.w3.org/2000/01/rdf-schema#label>	"palpifer"@en	
 <http://purl.obolibrary.org/obo/AISM_0004232>	<http://www.w3.org/2000/01/rdf-schema#label>	"metasternum"@en	
 <http://purl.obolibrary.org/obo/AISM_0004096>	<http://www.w3.org/2000/01/rdf-schema#label>	"abdominal tergite VI-abdominal tergite VII conjunctiva"@en	
-<http://purl.obolibrary.org/obo/AISM_0004192>	<http://www.w3.org/2000/01/rdf-schema#label>	"mesotarso-mesopretarsal conjunctiva"@en	
+<http://purl.obolibrary.org/obo/AISM_0004192>	<http://www.w3.org/2000/01/rdf-schema#label>	"mesotarso-mesodistitarsal conjunctiva"@en	
 <http://purl.obolibrary.org/obo/AISM_0004009>	<http://www.w3.org/2000/01/rdf-schema#label>	"stipito-lacinial conjunctiva"@en	
 <http://purl.obolibrary.org/obo/AISM_0000060>	<http://www.w3.org/2000/01/rdf-schema#label>	"labial palpomere"@en	
 <http://purl.obolibrary.org/obo/AISM_0000359>	<http://www.w3.org/2000/01/rdf-schema#label>	"clypeal tooth"@en	
@@ -3075,13 +3075,13 @@
 <http://purl.obolibrary.org/obo/AISM_0000392>	<http://www.w3.org/2000/01/rdf-schema#label>	"parameres"@en	
 <http://purl.obolibrary.org/obo/AISM_0002021>	<http://www.w3.org/2000/01/rdf-schema#label>	"hypopharyngeomandibular muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0004167>	<http://www.w3.org/2000/01/rdf-schema#label>	"abdominal tergite X-paraproct conjunctiva"@en	
+<http://purl.obolibrary.org/obo/AISM_0002030>	<http://www.w3.org/2000/01/rdf-schema#label>	"anterior tentorio-stipital muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0004314>	<http://www.w3.org/2000/01/rdf-schema#label>	"insect thoracic spiracle"@en	
 <http://purl.obolibrary.org/obo/AISM_0002088>	<http://www.w3.org/2000/01/rdf-schema#label>	"dorsal longitudinal abdominal muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0000051>	<http://www.w3.org/2000/01/rdf-schema#label>	"maxillary palpus"@en	
-<http://purl.obolibrary.org/obo/AISM_0002030>	<http://www.w3.org/2000/01/rdf-schema#label>	"anterior tentorio-stipital muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0000413>	<http://www.w3.org/2000/01/rdf-schema#label>	"distal region of tergite VIII"@en	
-<http://purl.obolibrary.org/obo/AISM_0002029>	<http://www.w3.org/2000/01/rdf-schema#label>	"tentorio-cardinal muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0004021>	<http://www.w3.org/2000/01/rdf-schema#label>	"postoccipital ridge"@en	
+<http://purl.obolibrary.org/obo/AISM_0002029>	<http://www.w3.org/2000/01/rdf-schema#label>	"tentorio-cardinal muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0002038>	<http://www.w3.org/2000/01/rdf-schema#label>	"maxillary palpomere II"@en	
 <http://purl.obolibrary.org/obo/AISM_0004029>	<http://www.w3.org/2000/01/rdf-schema#label>	"frontal suture"@en	
 <http://purl.obolibrary.org/obo/AISM_0000094>	<http://www.w3.org/2000/01/rdf-schema#label>	"mesopleuro-metapleural conjunctiva"@en	
@@ -3113,7 +3113,7 @@
 <http://purl.obolibrary.org/obo/AISM_0004177>	<http://www.w3.org/2000/01/rdf-schema#label>	"metatrochantero-metafemoral conjunctiva"@en	
 <http://purl.obolibrary.org/obo/AISM_0000410>	<http://www.w3.org/2000/01/rdf-schema#label>	"ocellate setigerous cuticular puncture"@en	
 <http://purl.obolibrary.org/obo/AISM_0004225>	<http://www.w3.org/2000/01/rdf-schema#label>	"mesophragma"@en	
-<http://purl.obolibrary.org/obo/AISM_0004196>	<http://www.w3.org/2000/01/rdf-schema#label>	"metapretarsus"@en	
+<http://purl.obolibrary.org/obo/AISM_0004196>	<http://www.w3.org/2000/01/rdf-schema#label>	"metadistitarsus"@en	
 <http://purl.obolibrary.org/obo/AISM_0004109>	<http://www.w3.org/2000/01/rdf-schema#label>	"abdominal sternite VII"@en	
 <http://purl.obolibrary.org/obo/AISM_0000370>	<http://www.w3.org/2000/01/rdf-schema#label>	"dorsal protibial cuticular tooth 3"@en	
 <http://purl.obolibrary.org/obo/AISM_0004060>	<http://www.w3.org/2000/01/rdf-schema#label>	"epiproct"@en	
@@ -3151,8 +3151,8 @@
 <http://purl.obolibrary.org/obo/AISM_0004129>	<http://www.w3.org/2000/01/rdf-schema#label>	"pleuron"@en	
 <http://purl.obolibrary.org/obo/AISM_0004155>	<http://www.w3.org/2000/01/rdf-schema#label>	"preepisternum"@en	
 <http://purl.obolibrary.org/obo/AISM_0000010>	<http://www.w3.org/2000/01/rdf-schema#label>	"cuticular condyle"@en	
-<http://purl.obolibrary.org/obo/AISM_0004290>	<http://www.w3.org/2000/01/rdf-schema#label>	"insect abdominal segment III"@en	
 <http://purl.obolibrary.org/obo/BSPO_0000684>	<http://www.w3.org/2000/01/rdf-schema#label>	"ventral margin"	
+<http://purl.obolibrary.org/obo/AISM_0004290>	<http://www.w3.org/2000/01/rdf-schema#label>	"insect abdominal segment III"@en	
 <http://purl.obolibrary.org/obo/AISM_0004203>	<http://www.w3.org/2000/01/rdf-schema#label>	"basal wing conjunctiva"	
 <http://purl.obolibrary.org/obo/AISM_0004087>	<http://www.w3.org/2000/01/rdf-schema#label>	"abdominal tergite III"@en	
 <http://purl.obolibrary.org/obo/AISM_0000418>	<http://www.w3.org/2000/01/rdf-schema#label>	"dorsal protibial margin between protibial teeth 2 and 3"@en	
@@ -3182,7 +3182,7 @@
 <http://purl.obolibrary.org/obo/AISM_0000196>	<http://www.w3.org/2000/01/rdf-schema#label>	"tentorial pit"@en	
 <http://purl.obolibrary.org/obo/AISM_0004304>	<http://www.w3.org/2000/01/rdf-schema#label>	"cuticular sensilla"@en	
 <http://purl.obolibrary.org/obo/PATO_0000150>	<http://www.w3.org/2000/01/rdf-schema#label>	"texture"	
-<http://purl.obolibrary.org/obo/AISM_0004194>	<http://www.w3.org/2000/01/rdf-schema#label>	"propretarsus"@en	
+<http://purl.obolibrary.org/obo/AISM_0004194>	<http://www.w3.org/2000/01/rdf-schema#label>	"prodistitarsus"@en	
 <http://purl.obolibrary.org/obo/AISM_0000438>	<http://www.w3.org/2000/01/rdf-schema#label>	"line connecting anterior margins of eyes"@en	
 <http://purl.obolibrary.org/obo/AISM_0004107>	<http://www.w3.org/2000/01/rdf-schema#label>	"abdominal sternite V"@en	
 <http://purl.obolibrary.org/obo/AISM_0002028>	<http://www.w3.org/2000/01/rdf-schema#label>	"cranio-lacinial muscle"@en	
@@ -3250,8 +3250,8 @@
 <http://purl.obolibrary.org/obo/AISM_0004216>	<http://www.w3.org/2000/01/rdf-schema#label>	"interfurcal muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0000158>	<http://www.w3.org/2000/01/rdf-schema#label>	"cuticular ridge"@en	
 <http://purl.obolibrary.org/obo/AISM_0004316>	<http://www.w3.org/2000/01/rdf-schema#label>	"insect external male genitalia"@en	
-<http://purl.obolibrary.org/obo/AISM_0002032>	<http://www.w3.org/2000/01/rdf-schema#label>	"posterior tentorio-stipital muscle"@en	
 <http://purl.obolibrary.org/obo/PATO_0002254>	<http://www.w3.org/2000/01/rdf-schema#label>	"flattened"	
+<http://purl.obolibrary.org/obo/AISM_0002032>	<http://www.w3.org/2000/01/rdf-schema#label>	"posterior tentorio-stipital muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0004032>	<http://www.w3.org/2000/01/rdf-schema#label>	"subgenal ridge"@en	
 <http://purl.obolibrary.org/obo/AISM_0000096>	<http://www.w3.org/2000/01/rdf-schema#label>	"prosternal-procoxal conjunctiva"@en	
 <http://purl.obolibrary.org/obo/UBERON_0000165>	<http://www.w3.org/2000/01/rdf-schema#label>	"mouth"	
@@ -3390,7 +3390,7 @@
 <http://purl.obolibrary.org/obo/AISM_0002073>	<http://www.w3.org/2000/01/rdf-schema#label>	"prophragma-cervical muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0000149>	<http://www.w3.org/2000/01/rdf-schema#label>	"pretarsal muscle"@en	
 <http://purl.obolibrary.org/obo/AISM_0004307>	<http://www.w3.org/2000/01/rdf-schema#label>	"pretarsal seta"@en	
-<http://purl.obolibrary.org/obo/AISM_0004191>	<http://www.w3.org/2000/01/rdf-schema#label>	"protarso-propretarsal conjunctiva"@en	
+<http://purl.obolibrary.org/obo/AISM_0004191>	<http://www.w3.org/2000/01/rdf-schema#label>	"protarso-prodistitarsal conjunctiva"@en	
 <http://purl.obolibrary.org/obo/AISM_0000411>	<http://www.w3.org/2000/01/rdf-schema#label>	"simple setigerous cuticular puncture"@en	
 <http://purl.obolibrary.org/obo/AISM_0000185>	<http://www.w3.org/2000/01/rdf-schema#label>	"sensillum chaeticum"@en	
 <http://purl.obolibrary.org/obo/AISM_0000076>	<http://www.w3.org/2000/01/rdf-schema#label>	"femur"@en	
@@ -3448,6 +3448,7 @@
 <http://purl.obolibrary.org/obo/AISM_0004313>	<http://www.w3.org/2000/01/rdf-schema#label>	"tracheal gill"@en	
 <http://purl.obolibrary.org/obo/BSPO_0000029>	<http://www.w3.org/2000/01/rdf-schema#label>	"antero-lateral region"	
 <http://purl.obolibrary.org/obo/AISM_0004062>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"insect penis"@en	
+<http://purl.obolibrary.org/obo/AISM_0000047>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"pretarsus"	
 <http://purl.obolibrary.org/obo/CL_0000066>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"epitheliocyte"	
 <http://purl.obolibrary.org/obo/AISM_0004081>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"fulcrum"@en	
 <http://purl.obolibrary.org/obo/BSPO_0000007>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"right"	
@@ -3503,6 +3504,7 @@
 <http://purl.obolibrary.org/obo/AISM_0002019>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"hypopharyngeal arms"@en	
 <http://purl.obolibrary.org/obo/AISM_0002019>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"fulturae"@en	
 <http://purl.obolibrary.org/obo/AISM_0004260>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"ungues"@en	
+<http://purl.obolibrary.org/obo/AISM_0004260>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"pretarsal claw"@en	
 <http://purl.obolibrary.org/obo/AISM_0004023>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"occipital foramen"@en	
 <http://purl.obolibrary.org/obo/AISM_0004302>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"preoral cavity"@en	
 <http://purl.obolibrary.org/obo/PATO_0000402>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"ramiform"	

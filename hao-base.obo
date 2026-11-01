@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: hao/releases/2026-02-12/hao-base.owl
+data-version: hao/releases/2026-11-01/hao-base.owl
 idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: figure http://api.hymao.org/api/figure/ 
@@ -17,7 +17,7 @@ property_value: dcterms:contributor "Sergei Tarasov (STarasov) https://orcid.org
 property_value: dcterms:description "The Hymenoptera Anatomy Ontology (HAO) contains terms used to describe Hymenoptera anatomy phenotypes." xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Hymenoptera Anatomy Ontology" xsd:string
-property_value: owl:versionInfo "2026-02-12" xsd:string
+property_value: owl:versionInfo "2026-11-01" xsd:string
 
 [Term]
 id: AISM:0004081
@@ -862,14 +862,14 @@ property_value: oboInOwl:hasRelatedSynonym "outer valves" xsd:string {oboInOwl:h
 property_value: oboInOwl:hasRelatedSynonym "plaques carrees" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "plaques quadratiques" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "quadrate plates" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "quadratische platte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68582"}
+property_value: oboInOwl:hasRelatedSynonym "quadratische platte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253231"}
 property_value: oboInOwl:hasRelatedSynonym "quadratplatte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "tergite 9" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "tergite du 8º segment" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "tergite IX" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "tergum abdominale nonum" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98094"}
 property_value: oboInOwl:hasRelatedSynonym "tergum nonum" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98094"}
-property_value: oboInOwl:hasRelatedSynonym "écaille anale" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68583"}
+property_value: oboInOwl:hasRelatedSynonym "écaille anale" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253226"}
 property_value: oboInOwl:hasRelatedSynonym "écaille chitineuse" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "épipygium" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:id "HAO:0000075" xsd:string
@@ -2350,7 +2350,7 @@ property_value: oboInOwl:hasRelatedSynonym "Kapsel" xsd:string {oboInOwl:hasDbXr
 property_value: oboInOwl:hasRelatedSynonym "lame basialire" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67791", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67809"}
 property_value: oboInOwl:hasRelatedSynonym "lamina annularis" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67670", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67797", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "pièce annulaire" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67817", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
-property_value: oboInOwl:hasRelatedSynonym "pièce basilaire" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67810", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
+property_value: oboInOwl:hasRelatedSynonym "pièce basilaire" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253225"}
 property_value: oboInOwl:hasRelatedSynonym "plaque basilaire" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67812", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "praeputium" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67813", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "preputium" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/43470"}
@@ -3265,7 +3265,7 @@ property_value: oboInOwl:hasRelatedSynonym "stilett-trager" xsd:string {oboInOwl
 property_value: oboInOwl:hasRelatedSynonym "supporting plate" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "treibbein" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f="}
 property_value: oboInOwl:hasRelatedSynonym "triangular plate" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "winkel" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68582"}
+property_value: oboInOwl:hasRelatedSynonym "winkel" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253231"}
 property_value: oboInOwl:hasRelatedSynonym "winkelplatte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "winkelstuck" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "écaille du stylet" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
@@ -3279,15 +3279,15 @@ is_a: AISM:0004076
 relationship: BFO:0000050 HAO:0002158 ! first valvifer-first valvula complex
 property_value: oboInOwl:hasRelatedSynonym "bohrborste" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "first gonapophysis" xsd:string {oboInOwl:hasDbXref="http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm"}
-property_value: oboInOwl:hasRelatedSynonym "gräte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68574"}
-property_value: oboInOwl:hasRelatedSynonym "lame de l'aiguillon" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67810", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
+property_value: oboInOwl:hasRelatedSynonym "gräte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253229"}
+property_value: oboInOwl:hasRelatedSynonym "lame de l'aiguillon" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253225"}
 property_value: oboInOwl:hasRelatedSynonym "lancet" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "saw" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "schieber" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f="}
 property_value: oboInOwl:hasRelatedSynonym "soie piquante" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "spicula" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68151"}
+property_value: oboInOwl:hasRelatedSynonym "spicula" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/177728"}
 property_value: oboInOwl:hasRelatedSynonym "stachelgrate" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "stechborste" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/29835", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68582"}
+property_value: oboInOwl:hasRelatedSynonym "stechborste" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/29835", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253231"}
 property_value: oboInOwl:hasRelatedSynonym "stilet" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "stylet" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "sägeblatt" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67800", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
@@ -6717,7 +6717,7 @@ property_value: oboInOwl:hasRelatedSynonym "parapsidal furrow" xsd:string {oboIn
 property_value: oboInOwl:hasRelatedSynonym "parapsidal signum" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/36895"}
 property_value: oboInOwl:hasRelatedSynonym "parapsides sulcus" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98117"}
 property_value: oboInOwl:hasRelatedSynonym "paraside" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67864"}
-property_value: oboInOwl:hasRelatedSynonym "sekundare Parapsiden" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68598"}
+property_value: oboInOwl:hasRelatedSynonym "sekundare Parapsiden" xsd:string {oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/44001"}
 property_value: oboInOwl:hasRelatedSynonym "sekundare Parapsidenfurchen" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98118"}
 property_value: oboInOwl:hasRelatedSynonym "suture parassidiali" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/98101"}
 property_value: oboInOwl:id "HAO:0000694" xsd:string
@@ -6840,7 +6840,7 @@ is_a: AISM:0000003
 relationship: BFO:0000050 HAO:0000091 ! hymenopteran aedeagus
 property_value: oboInOwl:hasRelatedSynonym "aedeagal rod" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67794", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "aedeagal sclerite" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67670", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
-property_value: oboInOwl:hasRelatedSynonym "baguettes du fourreau" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67810", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
+property_value: oboInOwl:hasRelatedSynonym "baguettes du fourreau" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253225"}
 property_value: oboInOwl:hasRelatedSynonym "crochet" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67812", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "inner or dorsal arm of the stipes" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67840", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "lamina aedeagalis" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67670", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
@@ -8860,7 +8860,7 @@ property_value: oboInOwl:hasRelatedSynonym "second gonocoxa" xsd:string {oboInOw
 property_value: oboInOwl:hasRelatedSynonym "untere hälfte d. seitenwand" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f="}
 property_value: oboInOwl:hasRelatedSynonym "vordere platte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "écaille du gorgeret" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "écaille latérale" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68583"}
+property_value: oboInOwl:hasRelatedSynonym "écaille latérale" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253226"}
 property_value: oboInOwl:id "HAO:0000927" xsd:string
 
 [Term]
@@ -8873,17 +8873,17 @@ property_value: oboInOwl:hasRelatedSynonym "acus" xsd:string {oboInOwl:hasDbXref
 property_value: oboInOwl:hasRelatedSynonym "back piece" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "branche et tige" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "corps tige et deux branches" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "eileiter" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68574"}
+property_value: oboInOwl:hasRelatedSynonym "eileiter" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253229"}
 property_value: oboInOwl:hasRelatedSynonym "gorgeret" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "gouttiere lamellaire" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "internal sheaths" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68151"}
+property_value: oboInOwl:hasRelatedSynonym "internal sheaths" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/177728"}
 property_value: oboInOwl:hasRelatedSynonym "mittlere gonapophysen" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "ovipositor stylet" xsd:string {oboInOwl:hasDbXref="http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm"}
 property_value: oboInOwl:hasRelatedSynonym "rinne" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "schienenrinne" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f="}
 property_value: oboInOwl:hasRelatedSynonym "second gonapophysis" xsd:string {oboInOwl:hasDbXref="http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm"}
 property_value: oboInOwl:hasRelatedSynonym "sheath" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "stachelrinne" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68582"}
+property_value: oboInOwl:hasRelatedSynonym "stachelrinne" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253231"}
 property_value: oboInOwl:hasRelatedSynonym "stachelschiene" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "stylet" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm"}
 property_value: oboInOwl:hasRelatedSynonym "support" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
@@ -9641,19 +9641,19 @@ property_value: oboInOwl:hasRelatedSynonym "gonoplac" xsd:string {oboInOwl:hasDb
 property_value: oboInOwl:hasRelatedSynonym "hintere gonapophysen" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "hüllschuppen" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f="}
 property_value: oboInOwl:hasRelatedSynonym "klappen" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/29835", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "outer sheaths" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68151"}
+property_value: oboInOwl:hasRelatedSynonym "outer sheaths" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/177728"}
 property_value: oboInOwl:hasRelatedSynonym "ovipositor sheath" xsd:string {oboInOwl:hasDbXref="http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm"}
 property_value: oboInOwl:hasRelatedSynonym "portion évaginale" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67825"}
 property_value: oboInOwl:hasRelatedSynonym "Scheide" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/29835"}
 property_value: oboInOwl:hasRelatedSynonym "scheide spitze" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "scheidenklappen" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68546"}
 property_value: oboInOwl:hasRelatedSynonym "sheath of saw" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "stachelscheiden" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68582"}
+property_value: oboInOwl:hasRelatedSynonym "stachelscheiden" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253231"}
 property_value: oboInOwl:hasRelatedSynonym "stacheltaster" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "valves" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "valves de fourreau" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "valves de la gaine du gorgeret" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
-property_value: oboInOwl:hasRelatedSynonym "valves du fourreau" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68583"}
+property_value: oboInOwl:hasRelatedSynonym "valves du fourreau" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253226"}
 property_value: oboInOwl:id "HAO:0001012" xsd:string
 
 [Term]
@@ -10304,7 +10304,7 @@ property_value: oboInOwl:hasRelatedSynonym "ossicle" xsd:string {oboInOwl:hasDbX
 property_value: oboInOwl:hasRelatedSynonym "section 3" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67780", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
 property_value: oboInOwl:hasRelatedSynonym "section 3 of gonocoxite IX" xsd:string {oboInOwl:hasDbXref="http://www.schulmeister.us/malereproductivesystem.html"}
 property_value: oboInOwl:hasRelatedSynonym "tenette" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67670", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
-property_value: oboInOwl:hasRelatedSynonym "volselle" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67810", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67836", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619"}
+property_value: oboInOwl:hasRelatedSynonym "volselle" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67836", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68619", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253225"}
 property_value: oboInOwl:id "HAO:0001084" xsd:string
 
 [Term]
@@ -10456,7 +10456,7 @@ relationship: BFO:0000050 HAO:0000679 ! ovipositor
 property_value: oboInOwl:hasRelatedSynonym "Legescheide" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68563"}
 property_value: oboInOwl:hasRelatedSynonym "oblonge platte" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:hasRelatedSynonym "sawsheath" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68584"}
-property_value: oboInOwl:hasRelatedSynonym "Scheide" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/68574"}
+property_value: oboInOwl:hasRelatedSynonym "Scheide" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823", oboInOwl:hasDbXref="https://sfg.taxonworks.org/api/v1/sources/253229"}
 property_value: oboInOwl:hasRelatedSynonym "Sägescheide" xsd:string {oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67800", oboInOwl:hasDbXref="http://api.hymao.org/api/ref/67823"}
 property_value: oboInOwl:id "HAO:0001100" xsd:string
 
