@@ -33,7 +33,8 @@ Release **2026-02-12**:
 ## Browse and search
 
 - **HAO Explorer**: a friendly interface for taxonomists and the public, with search across terms and synonyms,
-  synonyms with their literature, images, and a network of connections. See the `hao-explorer` project.
+  synonyms with their literature, images, and a network of connections. It lives in its own repository,
+  [DavideDalPos/hao-explorer](https://github.com/DavideDalPos/hao-explorer).
 - **Ontology Lookup Service (OLS)**: <https://www.ebi.ac.uk/ols4/ontologies/hao>
 - **Permanent identifiers**: every term resolves at `http://purl.obolibrary.org/obo/HAO_0000575`
   (replace the number).
