@@ -1,29 +1,107 @@
+![Build Status](https://github.com/DavideDalPos/hao2/actions/workflows/qc.yml/badge.svg)
 
-![Build Status](https://github.com/DavideDalPos/hao/actions/workflows/qc.yml/badge.svg)
-# Hymenoptera Anatomy Ontology
+# Hymenoptera Anatomy Ontology (HAO)
 
-Description: None
+The **Hymenoptera Anatomy Ontology** is a structured, shared vocabulary for the anatomy of wasps, bees, ants and
+sawflies. Each anatomical concept has a stable identifier (e.g. `HAO:0000575`, *mesoscutum*), a definition, the
+names it has carried in the literature, and its relations to other parts: what it is part of, what it is attached
+to, what it is continuous with.
 
-More information can be found at http://obofoundry.org/ontology/hao
+Taxonomists use it to write unambiguous descriptions and character matrices, and to link the terms in their papers
+to a precise concept. Databases and tools use it to search, compare and combine morphological data across
+publications and across groups.
 
-## Versions
+> **HAO2** is the current generation of the ontology. It is built with the
+> [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit) and placed under the
+> [Insect Skeleto-Muscular Ontology (AISM)](https://github.com/insect-morphology/aism), so Hymenoptera terms share
+> their general definitions (sclerite, conjunctiva, articulation…) with other insect orders.
 
-### Stable release versions
+## At a glance
 
-The latest version of the ontology can always be found at:
+Release **2026-02-12**:
 
-http://purl.obolibrary.org/obo/hao.owl
+| | |
+|---|---|
+| Current terms | 3,249 (2,412 HAO, 740 AISM, plus a few from BSPO, PATO, UBERON and others) |
+| Terms with a definition | 3,246 |
+| Synonyms | 2,714, on 1,023 terms, most with the reference that used them |
+| References | 468 works, from Audouin (1821) to 2023 |
+| Obsolete terms | 191 (kept so old identifiers still resolve) |
+| Most used relations | part of (2,040), attached to (683), has part (261), continuous with (233) |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 
-(note this will not show up until the request has been approved by obofoundry.org)
+## Browse and search
 
-### Editors' version
+- **HAO Explorer**: a friendly interface for taxonomists and the public, with search across terms and synonyms,
+  synonyms with their literature, images, and a network of connections. See the `hao-explorer` project.
+- **Ontology Lookup Service (OLS)**: <https://www.ebi.ac.uk/ols4/ontologies/hao>
+- **Permanent identifiers**: every term resolves at `http://purl.obolibrary.org/obo/HAO_0000575`
+  (replace the number).
 
-Editors of this ontology should use the edit version, [src/ontology/hao-edit.owl](src/ontology/hao-edit.owl)
+## Download
 
-## Contact
+The latest release is always at:
 
-Please use this GitHub repository's [Issue tracker](https://github.com/DavideDalPos/hao/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+| File | Contents |
+|---|---|
+| [hao.owl](http://purl.obolibrary.org/obo/hao.owl) | The full ontology (OWL), the main release file |
+| [hao.obo](http://purl.obolibrary.org/obo/hao.obo) | The same content in OBO format, easier to read and parse |
+| `hao-full.owl` / `hao-full.obo` | Everything, including all imported terms |
+| `hao-base.owl` / `hao-base.obo` | Only the axioms that belong to HAO, without imports; for combining with other ontologies |
+
+(The PURLs work once the ontology is registered with the OBO Foundry; until then, use the files in this repository.)
+
+## Terms and identifiers
+
+- `HAO:` terms are specific to Hymenoptera (e.g. *propodeum*, *mesoscutum*, *petiole*).
+- `AISM:` terms come from the Insect Skeleto-Muscular Ontology and apply across insects (e.g. *insect sclerite*,
+  *conjunctiva*).
+- Positional relations come from BSPO (*anterior to*, *distal to*…), qualities from PATO, and a few general
+  anatomical classes from UBERON and CARO.
+- Identifiers never change meaning. A term that is no longer used is marked **obsolete**, with a pointer to its
+  replacement when there is one.
+
+## Synonyms and references
+
+Synonyms record the names a structure has had in the literature, often in several languages (for example *alitrunk*,
+*thorax*, *trunk* and *wing-trunk* for the mesosoma). Most synonyms carry the work that used them. Older
+references are numbers in the original HAO bibliography (`http://api.hymao.org/api/ref/67864`); these will move to
+the HAO project in [TaxonWorks](https://taxonworks.org), which will also hold the images of each term.
+
+## Contributing
+
+We welcome corrections, new terms and new synonyms.
+
+- **Report a problem or request a term**: open an issue in the
+  [issue tracker](https://github.com/DavideDalPos/hao2/issues). Give the term, a definition, a reference, and the
+  parent term you suggest. See [CONTRIBUTING.md](CONTRIBUTING.md).
+- **Edit the ontology**: the only file editors change is `src/ontology/hao-edit.owl` (open it in
+  [Protégé](https://protege.stanford.edu/)). Work on a branch and open a pull request. Release files are generated by
+  the ODK and are never edited by hand.
+- **Make a release**: from `src/ontology`, run `sh run.sh make prepare_release` (needs Docker), then commit the new
+  release files. See the ODK [release workflow](https://oboacademy.github.io/obook/howto/odk-create-repo/).
+
+## Editors and contributors
+
+Davide Dal Pos ([ORCID](https://orcid.org/0000-0002-9122-934X)),
+István Mikó ([ORCID](https://orcid.org/0000-0003-2938-9075)),
+James P. Balhoff ([ORCID](https://orcid.org/0000-0002-8688-6599)),
+Jennifer C. Girón ([ORCID](https://orcid.org/0000-0002-0851-6883)),
+Sergei Tarasov ([ORCID](https://orcid.org/0000-0001-5237-2330)),
+and the many hymenopterists who contributed terms, definitions and references over the years.
+
+## How to cite
+
+Please cite the ontology and the release you used:
+
+> Yoder MJ, Mikó I, Seltmann KC, Bertone MA, Deans AR (2010) A gross anatomy ontology for Hymenoptera. PLoS ONE 5(12):
+> e15991. https://doi.org/10.1371/journal.pone.0015991
+
+> Hymenoptera Anatomy Ontology (HAO), release 2026-02-12. http://purl.obolibrary.org/obo/hao.owl
+
+A paper describing HAO2 is in preparation.
 
 ## Acknowledgements
 
-This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
+This repository was created with the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
+HAO builds on the original Hymenoptera Anatomy Ontology project and on the AISM.
